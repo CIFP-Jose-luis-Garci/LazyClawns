@@ -31,15 +31,16 @@ public class PlayerMove : MonoBehaviour
         if (alive)
         {
             Saltar();
+            Correr();
         }
-        
+        print(rb2D.velocity.x);
     }
     private void FixedUpdate()
     {
         if (alive)
         {
             Andar();
-            Flip(desplX);
+            Giro(desplX);
         }
         
     }
@@ -53,7 +54,7 @@ public class PlayerMove : MonoBehaviour
         //animator.SetFloat("Andar", speed);
     }
 
-    void Saltar()
+    void Saltar()//Cuando esten las animaciones descomentar todo y comprobar si funciona
     {
         if (Input.GetKeyDown(KeyCode.Space) /*&& animator.GetBool("IsGrounded")*/)//Animacion de saltar//Cojer datos del animator
         {
@@ -72,7 +73,7 @@ public class PlayerMove : MonoBehaviour
             animator.SetBool("IsGrounded", false);
         }*/
     }
-    void Flip(float horizontal)//Scrip para que cambie de direccion dependiendo de a que direccion se mueva
+    void Giro(float horizontal)//Scrip para que cambie de direccion dependiendo de a que direccion se mueva
     {
         if (horizontal < 0 && facingRight || horizontal > 0 && !facingRight)
         {
@@ -80,6 +81,21 @@ public class PlayerMove : MonoBehaviour
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+        }
+    }
+    void Correr()//Cuando haya animaciones descomentar y comprobar
+    {
+        speed = rb2D.velocity.x;
+        if (Input.GetKeyDown(KeyCode.LeftControl) && Mathf.Abs(speed) > 0)
+        {
+            //animator.SetBool("Run", true);
+            maxSpeed = 6.5f;
+            
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            //animator.SetBool("Run", false);
+            maxSpeed = 4f;
         }
     }
 }
