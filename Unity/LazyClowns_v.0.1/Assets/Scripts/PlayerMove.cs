@@ -12,6 +12,8 @@ public class PlayerMove : MonoBehaviour
     bool alive = true;
     float desplX;
     float maxSpeed;
+    float jumpForce;
+    private bool facingRight = true;
 
     // Start is called before the first frame update
     void Start()
@@ -19,12 +21,17 @@ public class PlayerMove : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
         maxSpeed = 4f;
+        jumpForce = 10f;
     }
 
     // Update is called once per frame
     void Update()
     {
         desplX = Input.GetAxis("Horizontal");
+        if (alive)
+        {
+            Saltar();
+        }
         
     }
     private void FixedUpdate()
@@ -32,6 +39,7 @@ public class PlayerMove : MonoBehaviour
         if (alive)
         {
             Andar();
+            Flip(desplX);
         }
         
     }
@@ -43,5 +51,35 @@ public class PlayerMove : MonoBehaviour
         speed = rb2D.velocity.x;
         speed = Mathf.Abs(speed);
         //animator.SetFloat("Andar", speed);
+    }
+
+    void Saltar()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) /*&& animator.GetBool("IsGrounded")*/)//Animacion de saltar//Cojer datos del animator
+        {
+            rb2D.AddForce(new Vector2(0f, 1f) * jumpForce, ForceMode2D.Impulse);//Aplicamos fuerza para que pueda saltar
+            //animator.SetTrigger("Jump");//Cambio de animaciones
+        }
+        /*Debug.DrawRay(transform.position, Vector2.down * distanciaSuelo, Color.red); //Dibuja la linea de deteccion
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, distanciaSuelo);//Detecta si hay algo en su camino
+        if (hit.collider != null)//Si el collider esta no hay nada //Animacion de cambio de caer a correr
+        {
+            animator.SetBool("IsGrounded", true);
+
+        }
+        else
+        {
+            animator.SetBool("IsGrounded", false);
+        }*/
+    }
+    void Flip(float horizontal)//Scrip para que cambie de direccion dependiendo de a que direccion se mueva
+    {
+        if (horizontal < 0 && facingRight || horizontal > 0 && !facingRight)
+        {
+            facingRight = !facingRight;
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+        }
     }
 }
