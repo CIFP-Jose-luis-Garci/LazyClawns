@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
         maxSpeed = 4f;
-        jumpForce = 10f;
+        jumpForce = 20f;
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class PlayerMove : MonoBehaviour
             Saltar();
             Correr();
         }
-        print(rb2D.velocity.x);
+        
     }
     private void FixedUpdate()
     {
