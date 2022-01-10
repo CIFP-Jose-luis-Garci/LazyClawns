@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: faec7b9039e44fa448c15512f02eb48a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8986504106410367446
+    second: Hoja de Sprite Flash_Prueba1_0
+  - first:
+      213: -2066094876879657559
+    second: Hoja de Sprite Flash_Prueba1_1
+  - first:
+      213: -4436098976114957578
+    second: Hoja de Sprite Flash_Prueba1_2
+  - first:
+      213: -4233139172154553141
+    second: Hoja de Sprite Flash_Prueba1_3
+  - first:
+      213: 7990005601696422319
+    second: Hoja de Sprite Flash_Prueba1_4
+  - first:
+      213: -479878815035476709
+    second: Hoja de Sprite Flash_Prueba1_5
+  - first:
+      213: 3113937144439824356
+    second: Hoja de Sprite Flash_Prueba1_6
+  - first:
+      213: 7585979123902484674
+    second: Hoja de Sprite Flash_Prueba1_7
+  - first:
+      213: -5232827402166560389
+    second: Hoja de Sprite Flash_Prueba1_8
+  - first:
+      213: 4286843595551951612
+    second: Hoja de Sprite Flash_Prueba1_9
+  - first:
+      213: -2059831137368945503
+    second: Hoja de Sprite Flash_Prueba1_10
+  - first:
+      213: 1418940241671954184
+    second: Hoja de Sprite Flash_Prueba1_11
+  - first:
+      213: 7618370789795626403
+    second: Hoja de Sprite Flash_Prueba1_12
+  - first:
+      213: -4239161643001975019
+    second: Hoja de Sprite Flash_Prueba1_13
+  - first:
+      213: 5760693967125247624
+    second: Hoja de Sprite Flash_Prueba1_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,11 +170,326 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 446
+        width: 165
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2622d4b026894380800000000000000
+      internalID: -8986504106410367446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_1
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 446
+        width: 173
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56557f7a1c353e0800000000000000
+      internalID: -2066094876879657559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_2
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 446
+        width: 218
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2a1341c7fcf62c0800000000000000
+      internalID: -4436098976114957578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_3
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 448
+        width: 248
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcccfeed95ed045c0800000000000000
+      internalID: -4233139172154553141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_4
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 448
+        width: 252
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa91f7a03c332ee60800000000000000
+      internalID: 7990005601696422319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_5
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 453
+        width: 259
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15339e92c02759f0800000000000000
+      internalID: -479878815035476709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_6
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 450
+        width: 257
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efda33a55de63b20800000000000000
+      internalID: 3113937144439824356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_7
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 458
+        width: 247
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c09cb922dfc64960800000000000000
+      internalID: 7585979123902484674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_8
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 472
+        width: 242
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b799ee2d3334167b0800000000000000
+      internalID: -5232827402166560389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_9
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 475
+        width: 239
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa4888998ded7b30800000000000000
+      internalID: 4286843595551951612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_10
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 450
+        width: 252
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acc5d77e720a63e0800000000000000
+      internalID: -2059831137368945503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 25
+        width: 237
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f1d56c1a611b310800000000000000
+      internalID: 1418940241671954184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 23
+        width: 247
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adfaf49ed3e9b960800000000000000
+      internalID: 7618370789795626403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_13
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 23
+        width: 250
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe76b12f87b25c0800000000000000
+      internalID: -4239161643001975019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash_Prueba1_14
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 25
+        width: 245
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8867c3244a812ff40800000000000000
+      internalID: 5760693967125247624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 07cb98b603a26094a8a6a12a6f8ae5e5
     internalID: 0
     vertices: []
     indices: 
