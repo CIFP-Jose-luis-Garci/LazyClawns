@@ -10,11 +10,16 @@ public class Combat : MonoBehaviour
     public LayerMask enemyLayers;
     public int daño = 30;
 
+    InputSystem inputCr;
+    bool ataque;
 
 
     private void Awake()
     {
         //animator = GetComponent<Animator>();
+        //Correr
+        inputCr.Ataque.AtaqueBasico.started += _ => { ataque = true; };
+        inputCr.Ataque.AtaqueBasico.canceled += _ => { ataque = false; };
     }
 
     private void Start()
@@ -25,7 +30,7 @@ public class Combat : MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Q) /*&& siguienteAtaque >= tiempoAtaque*/)
+        if (ataque /*&& siguienteAtaque >= tiempoAtaque*/)
         {
             Attack();
             

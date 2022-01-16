@@ -151,8 +151,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145794470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.81, y: 1.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.24, z: 0}
+  m_LocalScale: {x: 2.5578, y: 2.5578, z: 2.5578}
   m_Children:
   - {fileID: 926199746}
   m_Father: {fileID: 2144206029}
@@ -198,7 +198,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8986504106410367446, guid: faec7b9039e44fa448c15512f02eb48a, type: 3}
+  m_Sprite: {fileID: -5657660071104628353, guid: 1262b80e8abdafd4f82567ab03e036f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -240,18 +240,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014535427, y: -0.6721672}
+  m_Offset: {x: 0.11549513, y: -0.050286293}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6513116, y: 3.74}
+    oldSize: {x: 0.94, y: 1.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0290709, y: 2.3443344}
+  m_Size: {x: 0.9361683, y: 1.5826471}
   m_EdgeRadius: 0
 --- !u!95 &145794475
 Animator:
@@ -1030,8 +1030,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144206029}
-  - component: {fileID: 2144206028}
   - component: {fileID: 2144206030}
+  - component: {fileID: 2144206028}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1060,7 +1060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144206027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6145561, y: 1.0013698, z: -0.5967171}
+  m_LocalPosition: {x: -5.28, y: 1.29, z: -0.5967171}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 145794471}
@@ -1087,4 +1087,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
