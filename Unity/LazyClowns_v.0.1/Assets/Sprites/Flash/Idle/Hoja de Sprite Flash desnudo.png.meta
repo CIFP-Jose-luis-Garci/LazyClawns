@@ -1,0 +1,1992 @@
+fileFormatVersion: 2
+guid: e7736d7805c8bd94996c1ef5c3aa71b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7878976781252017422
+    second: Hoja de Sprite Flash desnudo_0
+  - first:
+      213: 1605498642522032906
+    second: Hoja de Sprite Flash desnudo_1
+  - first:
+      213: -4006159881609742840
+    second: Hoja de Sprite Flash desnudo_2
+  - first:
+      213: 2788300418179812050
+    second: Hoja de Sprite Flash desnudo_3
+  - first:
+      213: -5456526558492043352
+    second: Hoja de Sprite Flash desnudo_4
+  - first:
+      213: -1924109505924079241
+    second: Hoja de Sprite Flash desnudo_5
+  - first:
+      213: 6666884136165801401
+    second: Hoja de Sprite Flash desnudo_6
+  - first:
+      213: -8141517510826524474
+    second: Hoja de Sprite Flash desnudo_7
+  - first:
+      213: 1784529804935249865
+    second: Hoja de Sprite Flash desnudo_8
+  - first:
+      213: -3510128647364387038
+    second: Hoja de Sprite Flash desnudo_9
+  - first:
+      213: 4533241484076663623
+    second: Hoja de Sprite Flash desnudo_10
+  - first:
+      213: 4573372903373243580
+    second: Hoja de Sprite Flash desnudo_11
+  - first:
+      213: -7309785674368253842
+    second: Hoja de Sprite Flash desnudo_12
+  - first:
+      213: 3897303666042987164
+    second: Hoja de Sprite Flash desnudo_13
+  - first:
+      213: 3295596833049614589
+    second: Hoja de Sprite Flash desnudo_14
+  - first:
+      213: -2255962392686841141
+    second: Hoja de Sprite Flash desnudo_15
+  - first:
+      213: -7183829499941316960
+    second: Hoja de Sprite Flash desnudo_16
+  - first:
+      213: 4262585661538674195
+    second: Hoja de Sprite Flash desnudo_17
+  - first:
+      213: 4776892448573125476
+    second: Hoja de Sprite Flash desnudo_18
+  - first:
+      213: 3036979224898371860
+    second: Hoja de Sprite Flash desnudo_19
+  - first:
+      213: 1820984257088496946
+    second: Hoja de Sprite Flash desnudo_20
+  - first:
+      213: -4477570324643407257
+    second: Hoja de Sprite Flash desnudo_21
+  - first:
+      213: -195657825534305703
+    second: Hoja de Sprite Flash desnudo_22
+  - first:
+      213: 6601681478166662886
+    second: Hoja de Sprite Flash desnudo_23
+  - first:
+      213: -1449043566996715557
+    second: Hoja de Sprite Flash desnudo_24
+  - first:
+      213: -6664200338588260883
+    second: Hoja de Sprite Flash desnudo_25
+  - first:
+      213: 8592683283328048947
+    second: Hoja de Sprite Flash desnudo_26
+  - first:
+      213: -3957682719257159504
+    second: Hoja de Sprite Flash desnudo_27
+  - first:
+      213: 4861708728968376862
+    second: Hoja de Sprite Flash desnudo_28
+  - first:
+      213: 5345970979058405017
+    second: Hoja de Sprite Flash desnudo_29
+  - first:
+      213: -4761370765782058489
+    second: Hoja de Sprite Flash desnudo_30
+  - first:
+      213: 8190634490215700843
+    second: Hoja de Sprite Flash desnudo_31
+  - first:
+      213: 480967820718960320
+    second: Hoja de Sprite Flash desnudo_32
+  - first:
+      213: -86763511275637511
+    second: Hoja de Sprite Flash desnudo_33
+  - first:
+      213: 6676768324167223557
+    second: Hoja de Sprite Flash desnudo_34
+  - first:
+      213: -1896473015368063250
+    second: Hoja de Sprite Flash desnudo_35
+  - first:
+      213: 2298210325646874241
+    second: Hoja de Sprite Flash desnudo_36
+  - first:
+      213: -7319391754003477448
+    second: Hoja de Sprite Flash desnudo_37
+  - first:
+      213: -3433686702609475936
+    second: Hoja de Sprite Flash desnudo_38
+  - first:
+      213: -7848417429453665057
+    second: Hoja de Sprite Flash desnudo_39
+  - first:
+      213: 6860083443864527686
+    second: Hoja de Sprite Flash desnudo_40
+  - first:
+      213: -2622442055038734743
+    second: Hoja de Sprite Flash desnudo_41
+  - first:
+      213: -8227593495795454120
+    second: Hoja de Sprite Flash desnudo_42
+  - first:
+      213: 8956428298356948647
+    second: Hoja de Sprite Flash desnudo_43
+  - first:
+      213: -8801410359077530193
+    second: Hoja de Sprite Flash desnudo_44
+  - first:
+      213: 7168988624808201915
+    second: Hoja de Sprite Flash desnudo_45
+  - first:
+      213: 8815550439506973901
+    second: Hoja de Sprite Flash desnudo_46
+  - first:
+      213: 8351810086234469104
+    second: Hoja de Sprite Flash desnudo_47
+  - first:
+      213: -5791885843708194110
+    second: Hoja de Sprite Flash desnudo_48
+  - first:
+      213: -7951067062088852098
+    second: Hoja de Sprite Flash desnudo_49
+  - first:
+      213: -7448186688963657665
+    second: Hoja de Sprite Flash desnudo_50
+  - first:
+      213: -217364838031060051
+    second: Hoja de Sprite Flash desnudo_51
+  - first:
+      213: -4398085265511690966
+    second: Hoja de Sprite Flash desnudo_52
+  - first:
+      213: 2367341987437836632
+    second: Hoja de Sprite Flash desnudo_53
+  - first:
+      213: 6136528384567817873
+    second: Hoja de Sprite Flash desnudo_54
+  - first:
+      213: -1137352407278358272
+    second: Hoja de Sprite Flash desnudo_55
+  - first:
+      213: 8094482901381578855
+    second: Hoja de Sprite Flash desnudo_56
+  - first:
+      213: 9109966740766809799
+    second: Hoja de Sprite Flash desnudo_57
+  - first:
+      213: -6752334173081868090
+    second: Hoja de Sprite Flash desnudo_58
+  - first:
+      213: -5897583753570018358
+    second: Hoja de Sprite Flash desnudo_59
+  - first:
+      213: -1172989270866131854
+    second: Hoja de Sprite Flash desnudo_60
+  - first:
+      213: -4691789152169610304
+    second: Hoja de Sprite Flash desnudo_61
+  - first:
+      213: -659277262181611651
+    second: Hoja de Sprite Flash desnudo_62
+  - first:
+      213: 37288002491858769
+    second: Hoja de Sprite Flash desnudo_63
+  - first:
+      213: 4740723458000442276
+    second: Hoja de Sprite Flash desnudo_64
+  - first:
+      213: -6492423646768299251
+    second: Hoja de Sprite Flash desnudo_65
+  - first:
+      213: 7806668839144982513
+    second: Hoja de Sprite Flash desnudo_66
+  - first:
+      213: 5050702072027779786
+    second: Hoja de Sprite Flash desnudo_67
+  - first:
+      213: -3577706058761887095
+    second: Hoja de Sprite Flash desnudo_68
+  - first:
+      213: 497334042403129760
+    second: Hoja de Sprite Flash desnudo_69
+  - first:
+      213: -3302077907746329050
+    second: Hoja de Sprite Flash desnudo_70
+  - first:
+      213: -4713283458824567692
+    second: Hoja de Sprite Flash desnudo_71
+  - first:
+      213: 3874060983954424044
+    second: Hoja de Sprite Flash desnudo_72
+  - first:
+      213: -4185998343798194705
+    second: Hoja de Sprite Flash desnudo_73
+  - first:
+      213: 4459502803446393437
+    second: Hoja de Sprite Flash desnudo_74
+  - first:
+      213: -5854290349018052861
+    second: Hoja de Sprite Flash desnudo_75
+  - first:
+      213: 547729935808417912
+    second: Hoja de Sprite Flash desnudo_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3972
+        width: 128
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0db31053afb75d60800000000000000
+      internalID: 7878976781252017422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3972
+        width: 101
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc5e25280e74610800000000000000
+      internalID: 1605498642522032906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_2
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3972
+        width: 122
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806fa3f20d24768c0800000000000000
+      internalID: -4006159881609742840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 3970
+        width: 69
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da4ea0157802b620800000000000000
+      internalID: 2788300418179812050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_4
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 3974
+        width: 90
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d89541068644b0800000000000000
+      internalID: -5456526558492043352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3766
+        width: 69
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771617649903c45e0800000000000000
+      internalID: -1924109505924079241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3764
+        width: 71
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd79d69cc7858c50800000000000000
+      internalID: 6666884136165801401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_7
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 3766
+        width: 82
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c00092a5f4830f80800000000000000
+      internalID: -8141517510826524474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 3768
+        width: 98
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf334a176ce3c810800000000000000
+      internalID: 1784529804935249865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3483
+        width: 102
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f5ce9b794894fc0800000000000000
+      internalID: -3510128647364387038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 3486
+        width: 102
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74344739c1f49ee30800000000000000
+      internalID: 4533241484076663623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_11
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 3499
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb485f2cc62e77f30800000000000000
+      internalID: 4573372903373243580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_12
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3483
+        width: 102
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e608a0778ac6e8a90800000000000000
+      internalID: -7309785674368253842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_13
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3485
+        width: 101
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92e1541901061630800000000000000
+      internalID: 3897303666042987164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3270
+        width: 101
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df813dcdbdf4cbd20800000000000000
+      internalID: 3295596833049614589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3288
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2b24d082631b0e0800000000000000
+      internalID: -2255962392686841141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3278
+        width: 122
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a69601a129ed4c90800000000000000
+      internalID: -7183829499941316960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3273
+        width: 102
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316afa4331fb72b30800000000000000
+      internalID: 4262585661538674195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2972
+        width: 108
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46372777f5eea4240800000000000000
+      internalID: 4776892448573125476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2978
+        width: 79
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4110f42b384852a20800000000000000
+      internalID: 3036979224898371860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_20
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 2987
+        width: 77
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235a659a88f654910800000000000000
+      internalID: 1820984257088496946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_21
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2997
+        width: 91
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a9cce43897cd1c0800000000000000
+      internalID: -4477570324643407257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_22
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2991
+        width: 124
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a908b8e32e84df0800000000000000
+      internalID: -195657825534305703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2762
+        width: 100
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee4662c352ed9b50800000000000000
+      internalID: 6601681478166662886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_24
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2749
+        width: 162
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7881d9d86f3ebe0800000000000000
+      internalID: -1449043566996715557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_25
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2751
+        width: 125
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5a86ab9110483a0800000000000000
+      internalID: -6664200338588260883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_26
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2751
+        width: 106
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f94329be75f3770800000000000000
+      internalID: 8592683283328048947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2491
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b899f8198c7319c0800000000000000
+      internalID: -3957682719257159504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2491
+        width: 121
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12739f9452487340800000000000000
+      internalID: 4861708728968376862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_29
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2491
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ec2520844b03a40800000000000000
+      internalID: 5345970979058405017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_30
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2491
+        width: 124
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a71ade3863cedb0800000000000000
+      internalID: -4761370765782058489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_31
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 2491
+        width: 113
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b699e5a4caafaa170800000000000000
+      internalID: 8190634490215700843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_32
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2270
+        width: 118
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cee8564fadbca600800000000000000
+      internalID: 480967820718960320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2269
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f433f2db01cbcef0800000000000000
+      internalID: -86763511275637511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_34
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2269
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50941917a65a8ac50800000000000000
+      internalID: 6676768324167223557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2270
+        width: 122
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66fd827df5ea5e0800000000000000
+      internalID: -1896473015368063250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_36
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2270
+        width: 124
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186115f5d12e4ef10800000000000000
+      internalID: 2298210325646874241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2051
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c03b2cafb4c6a90800000000000000
+      internalID: -7319391754003477448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2050
+        width: 121
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6dafce2281950d0800000000000000
+      internalID: -3433686702609475936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_39
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2049
+        width: 119
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc0e6c3ee1d41390800000000000000
+      internalID: -7848417429453665057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_40
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2048
+        width: 117
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6436511cb89e33f50800000000000000
+      internalID: 6860083443864527686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_41
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 2048
+        width: 113
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eee5168d63b9bd0800000000000000
+      internalID: -2622442055038734743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_42
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1813
+        width: 118
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2cc6ae47b1dd80800000000000000
+      internalID: -8227593495795454120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_43
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1503
+        width: 95
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae72db8510ab4c70800000000000000
+      internalID: 8956428298356948647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_44
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1505
+        width: 112
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa59db809eb1bd580800000000000000
+      internalID: -8801410359077530193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_45
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1508
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe428cdb2d5d7360800000000000000
+      internalID: 7168988624808201915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_46
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1505
+        width: 159
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc41a5efa60275a70800000000000000
+      internalID: 8815550439506973901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_47
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1491
+        width: 177
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2b78d060797e370800000000000000
+      internalID: 8351810086234469104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1167
+        width: 75
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d82a03861f9fa0800000000000000
+      internalID: -5791885843708194110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_49
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1167
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d92e232a228a190800000000000000
+      internalID: -7951067062088852098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_50
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1167
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3047872ba9b2a890800000000000000
+      internalID: -7448186688963657665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_51
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1167
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da39f7ad4d3cbfcf0800000000000000
+      internalID: -217364838031060051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_52
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1167
+        width: 122
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dcb49c0ccd6f2c0800000000000000
+      internalID: -4398085265511690966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 868
+        width: 94
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859791faefc7ad020800000000000000
+      internalID: 2367341987437836632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_54
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 868
+        width: 94
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19634449d04592550800000000000000
+      internalID: 6136528384567817873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_55
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 868
+        width: 107
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001fcb3f2005730f0800000000000000
+      internalID: -1137352407278358272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_56
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 868
+        width: 105
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7608259ff41655070800000000000000
+      internalID: 8094482901381578855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_57
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 866
+        width: 142
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce570beb7a1d6e70800000000000000
+      internalID: 9109966740766809799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 630
+        width: 93
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c869b058d3ea42a0800000000000000
+      internalID: -6752334173081868090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_59
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 628
+        width: 62
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1857a2d2972ea0800000000000000
+      internalID: -5897583753570018358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_60
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 629
+        width: 140
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2740ea01974b8bfe0800000000000000
+      internalID: -1172989270866131854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_61
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 629
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c336efcf9a63eeb0800000000000000
+      internalID: -4691789152169610304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_62
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 629
+        width: 140
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d774c23b2d6c9d6f0800000000000000
+      internalID: -659277262181611651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_63
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 380
+        width: 142
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f39ee9d39748000800000000000000
+      internalID: 37288002491858769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_64
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 382
+        width: 94
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a35a7c1ede6ac140800000000000000
+      internalID: 4740723458000442276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_65
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 211
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d038703771746e5a0800000000000000
+      internalID: -6492423646768299251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 213
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7095c92fbd65c60800000000000000
+      internalID: 7806668839144982513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_67
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 213
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac29b8556c2b71640800000000000000
+      internalID: 5050702072027779786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_68
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 213
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822cb88b4f695ec0800000000000000
+      internalID: -3577706058761887095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_69
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 211
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c5243da2e6e600800000000000000
+      internalID: 497334042403129760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_70
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 209
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e6d1853a9ac22d0800000000000000
+      internalID: -3302077907746329050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474890f8aad079eb0800000000000000
+      internalID: -4713283458824567692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_72
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0cdc270fd63c530800000000000000
+      internalID: 3874060983954424044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_73
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedf8874fa858e5c0800000000000000
+      internalID: -4185998343798194705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ae74a1c2653ed30800000000000000
+      internalID: 4459502803446393437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_75
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30708c6e1f161cea0800000000000000
+      internalID: -5854290349018052861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de Sprite Flash desnudo_76
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87055b0897de99700800000000000000
+      internalID: 547729935808417912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b59105a8f81b80f42869c729970ff30b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
