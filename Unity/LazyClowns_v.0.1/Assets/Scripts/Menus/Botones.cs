@@ -18,12 +18,11 @@ public class Botones : MonoBehaviour
         
     }
 
-    public void Juego()
+   
+    public void CargarEscena(int escena)
     {
-        SceneManager.LoadScene(1);
-
+        SceneManager.LoadScene(escena);
     }
-
 
 
 }

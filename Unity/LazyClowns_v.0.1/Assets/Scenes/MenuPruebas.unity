@@ -673,7 +673,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 963729336}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1839429460}
+        m_TargetAssemblyTypeName: Botones, Assembly-CSharp
+        m_MethodName: CargarEscena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &963729336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,7 +1088,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1284504282}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1839429460}
+        m_TargetAssemblyTypeName: Botones, Assembly-CSharp
+        m_MethodName: CargarEscena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1284504282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,12 +1420,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1839429460}
         m_TargetAssemblyTypeName: Botones, Assembly-CSharp
-        m_MethodName: Juego
-        m_Mode: 1
+        m_MethodName: CargarEscena
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1526,7 +1550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1954064400}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1839429460}
+        m_TargetAssemblyTypeName: Botones, Assembly-CSharp
+        m_MethodName: CargarEscena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1954064400
 MonoBehaviour:
   m_ObjectHideFlags: 0
