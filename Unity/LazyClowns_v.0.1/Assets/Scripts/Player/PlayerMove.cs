@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     //Variables del input Sistem
     InputSystem inputCr;
-    Vector2 movimiento;
+    float movimiento;
     bool saltando;
     bool correr;
     bool saltar;
@@ -27,14 +27,16 @@ public class PlayerMove : MonoBehaviour
     {
         inputCr = new InputSystem();
         //Andar
-        inputCr.Movimiento.Andar.performed += ctx => movimiento = ctx.ReadValue<Vector2>();
-        inputCr.Movimiento.Andar.canceled += ctx => movimiento = Vector2.zero;
+        inputCr.Movimiento.Andar.performed += ctx => movimiento = ctx.ReadValue<float>();
+        inputCr.Movimiento.Andar.canceled += ctx => movimiento = 0;
         //Correr
         inputCr.Movimiento.Correr.started += _ => { correr = true; };
         inputCr.Movimiento.Correr.canceled += _ => { correr = false; };
         //Saltar
         inputCr.Movimiento.Saltar.started += _ => { saltar = true; };
         inputCr.Movimiento.Saltar.canceled += _ => { saltar = false; };
+
+
     }
 
     // Start is called before the first frame update
@@ -44,6 +46,7 @@ public class PlayerMove : MonoBehaviour
         speed = 1;
         maxSpeed = 4f;
         jumpForce = 20f;
+        
     }
 
     // Update is called once per frame
@@ -55,6 +58,7 @@ public class PlayerMove : MonoBehaviour
             Saltar();
             Correr();
         }
+        //print(movimiento);
         
     }
     private void FixedUpdate()
@@ -70,8 +74,8 @@ public class PlayerMove : MonoBehaviour
 
     void Andar()//Descomentar Animator cuando esten los spirtes
     {
-        desplX = movimiento.x;
-        rb2D.velocity = new Vector2(desplX * maxSpeed, rb2D.velocity.y);   //Mantener velocidad en el aire y moverse sin que afecte(Movimiento en el aire)
+        desplX = movimiento;
+        rb2D.velocity = new Vector2(desplX* maxSpeed, rb2D.velocity.y);   //Mantener velocidad en el aire y moverse sin que afecte(Movimiento en el aire)
         speed = rb2D.velocity.x;
         speed = Mathf.Abs(speed);
         //animator.SetFloat("Andar", speed);
@@ -120,5 +124,15 @@ public class PlayerMove : MonoBehaviour
             //animator.SetBool("Run", false);
             maxSpeed = 4f;
         }
+    }
+
+    private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
+    {
+        inputCr.Enable();
+    }
+
+    private void OnDisable()//Importantisimo para el funcionamiento del nuevo input system
+    {
+        inputCr.Disable();
     }
 }

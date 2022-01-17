@@ -18,8 +18,8 @@ public class Combat : MonoBehaviour
     {
         //animator = GetComponent<Animator>();
         //Correr
-        inputCr.Ataque.AtaqueBasico.started += _ => { ataque = true; };
-        inputCr.Ataque.AtaqueBasico.canceled += _ => { ataque = false; };
+        //inputCr.Ataque.AtaqueBasico.started += _ => { ataque = true; };
+        //inputCr.Ataque.AtaqueBasico.canceled += _ => { ataque = false; };
     }
 
     private void Start()
@@ -36,6 +36,7 @@ public class Combat : MonoBehaviour
             
             print("Atacado");
         }
+        
     }
 
     private void Attack()
