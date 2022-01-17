@@ -45,7 +45,7 @@ public class PlayerMove : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
         maxSpeed = 4f;
-        jumpForce = 20f;
+        jumpForce = 1f;
         
     }
 
