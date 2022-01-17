@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 13cda7c216c3d904eb7e9c2b97727d70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4945353442346458087
+    second: Caminar_0
+  - first:
+      213: 5495545746660003379
+    second: Caminar_1
+  - first:
+      213: 3383419655628932442
+    second: Caminar_2
+  - first:
+      213: 5383548030397598089
+    second: Caminar_3
+  - first:
+      213: -2028349968658515996
+    second: Caminar_4
+  - first:
+      213: -8823759891750444627
+    second: Caminar_5
+  - first:
+      213: 310587710320841436
+    second: Caminar_6
+  - first:
+      213: 803870063747273184
+    second: Caminar_7
+  - first:
+      213: 3266076593871132127
+    second: Caminar_8
+  - first:
+      213: -3474650177710110850
+    second: Caminar_9
+  - first:
+      213: 3272290908455273941
+    second: Caminar_10
+  - first:
+      213: -4786239688825732814
+    second: Caminar_11
+  - first:
+      213: 7244653405530369289
+    second: Caminar_12
+  - first:
+      213: 680830449705101298
+    second: Caminar_13
+  - first:
+      213: 831038436937943502
+    second: Caminar_14
+  - first:
+      213: 5444582119538569302
+    second: Caminar_15
+  - first:
+      213: 3271591609444797992
+    second: Caminar_16
+  - first:
+      213: -5004953696258401447
+    second: Caminar_17
+  - first:
+      213: 4629843066039346140
+    second: Caminar_18
+  - first:
+      213: 6756327330181500072
+    second: Caminar_19
+  - first:
+      213: 4936163001453057571
+    second: Caminar_20
+  - first:
+      213: 84840942008220843
+    second: Caminar_21
+  - first:
+      213: 3181584056617714944
+    second: Caminar_22
+  - first:
+      213: -4556216499703714917
+    second: Caminar_23
+  - first:
+      213: 5302925373866353577
+    second: Caminar_24
+  - first:
+      213: 636922353472369645
+    second: Caminar_25
+  - first:
+      213: -5715221751942302351
+    second: Caminar_26
+  - first:
+      213: 5880522120716101331
+    second: Caminar_27
+  - first:
+      213: -8795446179261200402
+    second: Caminar_28
+  - first:
+      213: 7031827182657949859
+    second: Caminar_29
+  - first:
+      213: 8235867323952185686
+    second: Caminar_30
+  - first:
+      213: -479554962127842982
+    second: Caminar_31
+  - first:
+      213: 3002316796916884271
+    second: Caminar_32
+  - first:
+      213: -714356404915745609
+    second: Caminar_33
+  - first:
+      213: -4052665698418801472
+    second: Caminar_34
+  - first:
+      213: -2055935434203938539
+    second: Caminar_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caminar_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 6564
+        width: 361
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebd0d311cc61a440800000000000000
+      internalID: 4945353442346458087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_1
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 6568
+        width: 377
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e049c6db9144c40800000000000000
+      internalID: 5495545746660003379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_2
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 6564
+        width: 262
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5546db204254fe20800000000000000
+      internalID: 3383419655628932442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_3
+      rect:
+        serializedVersion: 2
+        x: 5215
+        y: 6560
+        width: 258
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9894a1f096436ba40800000000000000
+      internalID: 5383548030397598089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_4
+      rect:
+        serializedVersion: 2
+        x: 6794
+        y: 6572
+        width: 333
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e73fed337ad9d3e0800000000000000
+      internalID: -2028349968658515996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5636
+        width: 253
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da120e4f025bb8580800000000000000
+      internalID: -8823759891750444627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_6
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 5628
+        width: 260
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2964180ed6f4400800000000000000
+      internalID: 310587710320841436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_7
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 5634
+        width: 301
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e11a3b509be72b00800000000000000
+      internalID: 803870063747273184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_8
+      rect:
+        serializedVersion: 2
+        x: 5167
+        y: 5640
+        width: 361
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd518e29b5f635d20800000000000000
+      internalID: 3266076593871132127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_9
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 5648
+        width: 365
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7747d6a21097cfc0800000000000000
+      internalID: -3474650177710110850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4741
+        width: 377
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d587307e33896d20800000000000000
+      internalID: 3272290908455273941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_11
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 4737
+        width: 322
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318aa19c5cd39db0800000000000000
+      internalID: -4786239688825732814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_12
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 4731
+        width: 273
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d267573ed2a8460800000000000000
+      internalID: 7244653405530369289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_13
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 4743
+        width: 333
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f721f2dfabc27900800000000000000
+      internalID: 680830449705101298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_14
+      rect:
+        serializedVersion: 2
+        x: 6826
+        y: 4723
+        width: 289
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9c16c2e01788b00800000000000000
+      internalID: 831038436937943502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3800
+        width: 270
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6503a81579a0f8b40800000000000000
+      internalID: 5444582119538569302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_16
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 3807
+        width: 299
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e0b133c37076d20800000000000000
+      internalID: 3271591609444797992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_17
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 3812
+        width: 363
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b5d317125da8ab0800000000000000
+      internalID: -5004953696258401447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_18
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 3823
+        width: 365
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3a4151db1804040800000000000000
+      internalID: 4629843066039346140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_19
+      rect:
+        serializedVersion: 2
+        x: 6762
+        y: 3827
+        width: 375
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac4bb509eb43cd50800000000000000
+      internalID: 6756327330181500072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_20
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2910
+        width: 321
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326190fc816c08440800000000000000
+      internalID: 4936163001453057571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_21
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2903
+        width: 273
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac3fc2236a6d2100800000000000000
+      internalID: 84840942008220843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_22
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 2914
+        width: 333
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005cebdb7d1472c20800000000000000
+      internalID: 3181584056617714944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_23
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 2894
+        width: 293
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9be26fbb3115c0c0800000000000000
+      internalID: -4556216499703714917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_24
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 2886
+        width: 269
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a5bb0886c79940800000000000000
+      internalID: 5302925373866353577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1978
+        width: 301
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f934818dc6d800800000000000000
+      internalID: 636922353472369645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_26
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1986
+        width: 361
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175b4eed8147fa0b0800000000000000
+      internalID: -5715221751942302351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_27
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1994
+        width: 365
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d62c1366bfcb9150800000000000000
+      internalID: 5880522120716101331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_28
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 1998
+        width: 376
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7c11cdc4c40f580800000000000000
+      internalID: -8795446179261200402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_29
+      rect:
+        serializedVersion: 2
+        x: 6790
+        y: 1994
+        width: 321
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a053400191169160800000000000000
+      internalID: 7031827182657949859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_30
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1077
+        width: 274
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651ca6512bdab4270800000000000000
+      internalID: 8235867323952185686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_31
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1085
+        width: 333
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5118108d474859f0800000000000000
+      internalID: -479554962127842982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_32
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 1066
+        width: 289
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f236b67483f5aa920800000000000000
+      internalID: 3002316796916884271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_33
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 1058
+        width: 270
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc8f172a81616f0800000000000000
+      internalID: -714356404915745609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_34
+      rect:
+        serializedVersion: 2
+        x: 6830
+        y: 1065
+        width: 301
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4465ce40a02c7c0800000000000000
+      internalID: -4052665698418801472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caminar_35
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 157
+        width: 362
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511c22b8d99d773e0800000000000000
+      internalID: -2055935434203938539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7c74e0cf5749da8479e82c657c4b6609
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

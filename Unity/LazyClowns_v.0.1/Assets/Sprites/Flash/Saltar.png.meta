@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 033c9984cfbdecd488fec17d8ad16af2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6156691491995337746
+    second: Saltar_0
+  - first:
+      213: -4614804162162560053
+    second: Saltar_1
+  - first:
+      213: -796082263642566375
+    second: Saltar_2
+  - first:
+      213: -2918064054789024787
+    second: Saltar_3
+  - first:
+      213: 6593712893893466647
+    second: Saltar_4
+  - first:
+      213: -8024211522749203433
+    second: Saltar_5
+  - first:
+      213: 985360367717536456
+    second: Saltar_6
+  - first:
+      213: -6086575453250235124
+    second: Saltar_7
+  - first:
+      213: -7118723008134904870
+    second: Saltar_8
+  - first:
+      213: 297674136687383225
+    second: Saltar_9
+  - first:
+      213: -9054420515050398074
+    second: Saltar_10
+  - first:
+      213: -2271948355617694969
+    second: Saltar_11
+  - first:
+      213: 4754978293302271994
+    second: Saltar_12
+  - first:
+      213: 7376637053456115375
+    second: Saltar_13
+  - first:
+      213: -2630135621382526583
+    second: Saltar_14
+  - first:
+      213: 1916822299327115465
+    second: Saltar_15
+  - first:
+      213: 5423651525695502894
+    second: Saltar_16
+  - first:
+      213: 4686113939094461437
+    second: Saltar_17
+  - first:
+      213: 7004906241437215757
+    second: Saltar_18
+  - first:
+      213: -6815837450725102077
+    second: Saltar_19
+  - first:
+      213: 8541880583474110466
+    second: Saltar_20
+  - first:
+      213: -7304017012426225604
+    second: Saltar_21
+  - first:
+      213: -3216202846140691207
+    second: Saltar_22
+  - first:
+      213: 6905744451859856476
+    second: Saltar_23
+  - first:
+      213: 7336097198526309676
+    second: Saltar_24
+  - first:
+      213: -1511605180397829167
+    second: Saltar_25
+  - first:
+      213: -2961506306246167989
+    second: Saltar_26
+  - first:
+      213: 5529219109584815106
+    second: Saltar_27
+  - first:
+      213: -6631296482447757890
+    second: Saltar_28
+  - first:
+      213: -6889967493983112607
+    second: Saltar_29
+  - first:
+      213: -4865543916565362131
+    second: Saltar_30
+  - first:
+      213: 6763081198711869001
+    second: Saltar_31
+  - first:
+      213: -8354949881273401642
+    second: Saltar_32
+  - first:
+      213: -8024611067633798880
+    second: Saltar_33
+  - first:
+      213: -4774940458411149015
+    second: Saltar_34
+  - first:
+      213: -8149075040754928994
+    second: Saltar_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Saltar_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 6544
+        width: 412
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2144d0cda46f07550800000000000000
+      internalID: 6156691491995337746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_1
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 6560
+        width: 296
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc37e46901ce4ffb0800000000000000
+      internalID: -4614804162162560053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_2
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 6596
+        width: 291
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9119897266fb3f4f0800000000000000
+      internalID: -796082263642566375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_3
+      rect:
+        serializedVersion: 2
+        x: 5175
+        y: 6628
+        width: 349
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3d676e334f087d0800000000000000
+      internalID: -2918064054789024787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_4
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 6604
+        width: 476
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ade6721f2918b50800000000000000
+      internalID: 6593712893893466647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5662
+        width: 380
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cffe7522644a090800000000000000
+      internalID: -8024211522749203433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_6
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 5612
+        width: 620
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c25d85a804bcad00800000000000000
+      internalID: 985360367717536456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_7
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 5620
+        width: 484
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0558629fd3288ba0800000000000000
+      internalID: -6086575453250235124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_8
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 5624
+        width: 404
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad308b50427353d90800000000000000
+      internalID: -7118723008134904870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_9
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 5628
+        width: 460
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b29218dc0d812400800000000000000
+      internalID: 297674136687383225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 4731
+        width: 313
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e5961938c385280800000000000000
+      internalID: -9054420515050398074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_11
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 4767
+        width: 304
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bdf53020b6870e0800000000000000
+      internalID: -2271948355617694969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_12
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 4803
+        width: 361
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff99f690931df140800000000000000
+      internalID: 4754978293302271994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_13
+      rect:
+        serializedVersion: 2
+        x: 5148
+        y: 4777
+        width: 476
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa66c3821541f5660800000000000000
+      internalID: 7376637053456115375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_14
+      rect:
+        serializedVersion: 2
+        x: 6802
+        y: 4747
+        width: 377
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989a4606691ef7bd0800000000000000
+      internalID: -2630135621382526583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3784
+        width: 620
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0b0f8b9bbe99a10800000000000000
+      internalID: 1916822299327115465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_16
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3791
+        width: 480
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2af59ea35ea44b40800000000000000
+      internalID: 5423651525695502894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_17
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 3795
+        width: 404
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb5bbcaccb680140800000000000000
+      internalID: 4686113939094461437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_18
+      rect:
+        serializedVersion: 2
+        x: 5046
+        y: 3801
+        width: 459
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c28cdec1d663160800000000000000
+      internalID: 7004906241437215757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_19
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 3819
+        width: 313
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee9be43f74961a0800000000000000
+      internalID: -6815837450725102077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2938
+        width: 305
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e7c3422bda8670800000000000000
+      internalID: 8541880583474110466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_21
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2974
+        width: 361
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38ccecb93be2aa90800000000000000
+      internalID: -7304017012426225604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_22
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 2950
+        width: 475
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc0f263d80cd53d0800000000000000
+      internalID: -3216202846140691207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_23
+      rect:
+        serializedVersion: 2
+        x: 5175
+        y: 2919
+        width: 380
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3bb2adf126df50800000000000000
+      internalID: 6905744451859856476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_24
+      rect:
+        serializedVersion: 2
+        x: 6664
+        y: 2871
+        width: 622
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2526e3a88d0fc560800000000000000
+      internalID: 7336097198526309676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1966
+        width: 483
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d34fb5e813b50be0800000000000000
+      internalID: -1511605180397829167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_26
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1967
+        width: 404
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b423e1884bd96e6d0800000000000000
+      internalID: -2961506306246167989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_27
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 1974
+        width: 459
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204ca103c7bbbbc40800000000000000
+      internalID: 5529219109584815106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_28
+      rect:
+        serializedVersion: 2
+        x: 5223
+        y: 1990
+        width: 309
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd676bbbf6e8f3a0800000000000000
+      internalID: -6631296482447757890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_29
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 2025
+        width: 301
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f52f911be160a0800000000000000
+      internalID: -6889967493983112607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1145
+        width: 361
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a0f0e269d1a7cb0800000000000000
+      internalID: -4865543916565362131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_31
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1121
+        width: 476
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e0854948a4bdd50800000000000000
+      internalID: 6763081198711869001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_32
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 1093
+        width: 379
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb18279514d0c80800000000000000
+      internalID: -8354949881273401642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_33
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 1042
+        width: 618
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021f40d00cad2a090800000000000000
+      internalID: -8024611067633798880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_34
+      rect:
+        serializedVersion: 2
+        x: 6788
+        y: 1050
+        width: 482
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92933c8a3f00cbdb0800000000000000
+      internalID: -4774940458411149015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saltar_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 405
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92fcc31d6ba8ee80800000000000000
+      internalID: -8149075040754928994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

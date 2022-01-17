@@ -1,0 +1,900 @@
+fileFormatVersion: 2
+guid: cdb934176b744bc449f717f85e7c3f57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8875657187739552248
+    second: Quieto2_0
+  - first:
+      213: 3593632430212204206
+    second: Quieto2_1
+  - first:
+      213: -7998895027702090000
+    second: Quieto2_2
+  - first:
+      213: -4744517131694939424
+    second: Quieto2_3
+  - first:
+      213: 1032761494237563412
+    second: Quieto2_4
+  - first:
+      213: -1352034491691473796
+    second: Quieto2_5
+  - first:
+      213: -8835948712357942750
+    second: Quieto2_6
+  - first:
+      213: -6926385589648372141
+    second: Quieto2_7
+  - first:
+      213: 3869919331986365876
+    second: Quieto2_8
+  - first:
+      213: 4346558959855052617
+    second: Quieto2_9
+  - first:
+      213: 2049320927802824589
+    second: Quieto2_10
+  - first:
+      213: -775429724261571397
+    second: Quieto2_11
+  - first:
+      213: 8315580019778819059
+    second: Quieto2_12
+  - first:
+      213: -8645346196057209855
+    second: Quieto2_13
+  - first:
+      213: -8860745041956331464
+    second: Quieto2_14
+  - first:
+      213: 8797073598276669158
+    second: Quieto2_15
+  - first:
+      213: -3827399135569737525
+    second: Quieto2_16
+  - first:
+      213: -8776670824791582803
+    second: Quieto2_17
+  - first:
+      213: -9186150976632020187
+    second: Quieto2_18
+  - first:
+      213: -4243949651924123042
+    second: Quieto2_19
+  - first:
+      213: 7267815437216405102
+    second: Quieto2_20
+  - first:
+      213: 6030797416169147342
+    second: Quieto2_21
+  - first:
+      213: -9097850480588234172
+    second: Quieto2_22
+  - first:
+      213: 4514577905337902172
+    second: Quieto2_23
+  - first:
+      213: 2806942949043280131
+    second: Quieto2_24
+  - first:
+      213: -4027205793921584600
+    second: Quieto2_25
+  - first:
+      213: -1625230463661121248
+    second: Quieto2_26
+  - first:
+      213: -229835234386564387
+    second: Quieto2_27
+  - first:
+      213: 8909289049741759646
+    second: Quieto2_28
+  - first:
+      213: -1321970083692838783
+    second: Quieto2_29
+  - first:
+      213: 7605432532711765518
+    second: Quieto2_30
+  - first:
+      213: 1135415134000333389
+    second: Quieto2_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quieto2_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4367
+        width: 418
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9cb5fdf2bac2b70800000000000000
+      internalID: 8875657187739552248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_1
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4367
+        width: 432
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea64f18c7a52fd130800000000000000
+      internalID: 3593632430212204206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_2
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 4367
+        width: 441
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6bd2e2a573ef090800000000000000
+      internalID: -7998895027702090000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_3
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 4367
+        width: 447
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e261966ec6182eb0800000000000000
+      internalID: -4744517131694939424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_4
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 4367
+        width: 452
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4bb17b1b155e00800000000000000
+      internalID: 1032761494237563412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3645
+        width: 456
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7467ae0bcb9c3de0800000000000000
+      internalID: -1352034491691473796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_6
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3646
+        width: 452
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa5520677606580800000000000000
+      internalID: -8835948712357942750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_7
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 3645
+        width: 447
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ecf97f00980ef90800000000000000
+      internalID: -6926385589648372141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_8
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 3645
+        width: 441
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd674f027b4b530800000000000000
+      internalID: 3869919331986365876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_9
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 3646
+        width: 433
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a37d4854125c30800000000000000
+      internalID: 4346558959855052617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2926
+        width: 418
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87167ca686a07c10800000000000000
+      internalID: 2049320927802824589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_11
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 2926
+        width: 433
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb42c1136ce1d35f0800000000000000
+      internalID: -775429724261571397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_12
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 2926
+        width: 440
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3904c58ffd66370800000000000000
+      internalID: 8315580019778819059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_13
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 2926
+        width: 447
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1044cbf807f850880800000000000000
+      internalID: -8645346196057209855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_14
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 2926
+        width: 452
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830a3e0a45f480580800000000000000
+      internalID: -8860745041956331464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2206
+        width: 456
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee8f3824db751a70800000000000000
+      internalID: 8797073598276669158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_16
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2208
+        width: 419
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc88abeb3c852eac0800000000000000
+      internalID: -3827399135569737525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_17
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 2206
+        width: 434
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da753c9b260033680800000000000000
+      internalID: -8776670824791582803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_18
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 2208
+        width: 441
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523adb86b5c348080800000000000000
+      internalID: -9186150976632020187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_19
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 2206
+        width: 449
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528b68e6467a15c0800000000000000
+      internalID: -4243949651924123042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1486
+        width: 452
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66526432a77cd460800000000000000
+      internalID: 7267815437216405102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_21
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1486
+        width: 457
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb0b172c42b1b350800000000000000
+      internalID: 6030797416169147342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_22
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 1486
+        width: 453
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ebecb031fdb180800000000000000
+      internalID: -9097850480588234172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_23
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 1486
+        width: 447
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c542e768fa007ae30800000000000000
+      internalID: 4514577905337902172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_24
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 1486
+        width: 442
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30913868db344f620800000000000000
+      internalID: 2806942949043280131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 767
+        width: 432
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822b8efdaad7c18c0800000000000000
+      internalID: -4027205793921584600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_26
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 767
+        width: 419
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021e55f01850279e0800000000000000
+      internalID: -1625230463661121248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_27
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 767
+        width: 433
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda258172167fccf0800000000000000
+      internalID: -229835234386564387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_28
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 767
+        width: 441
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e949223ff2724ab70800000000000000
+      internalID: 8909289049741759646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_29
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 767
+        width: 449
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1808bc5863b67ade0800000000000000
+      internalID: -1321970083692838783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 46
+        width: 452
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06fb7bd79ceb8960800000000000000
+      internalID: 7605432532711765518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quieto2_31
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 46
+        width: 458
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4241b67c0ec1cf00800000000000000
+      internalID: 1135415134000333389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8e7ce5522b90dcd4cab59e6ff5b80650
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
