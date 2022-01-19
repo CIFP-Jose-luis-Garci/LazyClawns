@@ -36,8 +36,8 @@ public class Combat : MonoBehaviour
         if (ataque )
         {
             animator.SetBool("timeattack", true);
-            Attack();
-            print("Atacado");
+            hacerDaño();
+            
         }
         else
         {
@@ -63,6 +63,10 @@ public class Combat : MonoBehaviour
         if (puntoDeAtaque == null) return;
         Gizmos.DrawWireSphere(puntoDeAtaque.position, rangoAtaque);
 
+    }
+    void hacerDaño()
+    {
+        Invoke("Attack", 1);
     }
 
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
