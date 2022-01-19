@@ -69,7 +69,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""2a9d8e89-be34-4506-93aa-abcfd66aa63c"",
-                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -80,7 +80,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""2d5d47c3-ca6f-4bbc-a0b7-edb9635cc2b7"",
-                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -101,8 +101,30 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""ff4e0180-14f5-40fc-931d-9c881aa49300"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Correr"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""87ea6b65-fb86-49c6-971f-ff28816e9181"",
                     ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Saltar"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fcaedf6d-6381-4837-8e18-d997a47fc2f9"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -123,6 +145,14 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""AtaqueDsitancia"",
+                    ""type"": ""Button"",
+                    ""id"": ""fe75044b-946e-4e94-b41b-4724b861cd82"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -134,6 +164,28 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""AtaqueBasico"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""05e78738-b295-45fd-be17-d64328cf46e3"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AtaqueBasico"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""339547de-8e91-4113-97c1-49eccc7a8bac"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AtaqueDsitancia"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -150,6 +202,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
         // Ataque
         m_Ataque = asset.FindActionMap("Ataque", throwIfNotFound: true);
         m_Ataque_AtaqueBasico = m_Ataque.FindAction("AtaqueBasico", throwIfNotFound: true);
+        m_Ataque_AtaqueDsitancia = m_Ataque.FindAction("AtaqueDsitancia", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -249,11 +302,13 @@ public class @InputSystem : IInputActionCollection, IDisposable
     private readonly InputActionMap m_Ataque;
     private IAtaqueActions m_AtaqueActionsCallbackInterface;
     private readonly InputAction m_Ataque_AtaqueBasico;
+    private readonly InputAction m_Ataque_AtaqueDsitancia;
     public struct AtaqueActions
     {
         private @InputSystem m_Wrapper;
         public AtaqueActions(@InputSystem wrapper) { m_Wrapper = wrapper; }
         public InputAction @AtaqueBasico => m_Wrapper.m_Ataque_AtaqueBasico;
+        public InputAction @AtaqueDsitancia => m_Wrapper.m_Ataque_AtaqueDsitancia;
         public InputActionMap Get() { return m_Wrapper.m_Ataque; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -266,6 +321,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @AtaqueBasico.started -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueBasico;
                 @AtaqueBasico.performed -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueBasico;
                 @AtaqueBasico.canceled -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueBasico;
+                @AtaqueDsitancia.started -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueDsitancia;
+                @AtaqueDsitancia.performed -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueDsitancia;
+                @AtaqueDsitancia.canceled -= m_Wrapper.m_AtaqueActionsCallbackInterface.OnAtaqueDsitancia;
             }
             m_Wrapper.m_AtaqueActionsCallbackInterface = instance;
             if (instance != null)
@@ -273,6 +331,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @AtaqueBasico.started += instance.OnAtaqueBasico;
                 @AtaqueBasico.performed += instance.OnAtaqueBasico;
                 @AtaqueBasico.canceled += instance.OnAtaqueBasico;
+                @AtaqueDsitancia.started += instance.OnAtaqueDsitancia;
+                @AtaqueDsitancia.performed += instance.OnAtaqueDsitancia;
+                @AtaqueDsitancia.canceled += instance.OnAtaqueDsitancia;
             }
         }
     }
@@ -286,5 +347,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
     public interface IAtaqueActions
     {
         void OnAtaqueBasico(InputAction.CallbackContext context);
+        void OnAtaqueDsitancia(InputAction.CallbackContext context);
     }
 }

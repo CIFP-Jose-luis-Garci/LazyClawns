@@ -56,7 +56,7 @@
                 {
                     "name": "negative",
                     "id": "2a9d8e89-be34-4506-93aa-abcfd66aa63c",
-                    "path": "<Keyboard>/leftArrow",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -67,7 +67,7 @@
                 {
                     "name": "positive",
                     "id": "2d5d47c3-ca6f-4bbc-a0b7-edb9635cc2b7",
-                    "path": "<Keyboard>/rightArrow",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -88,8 +88,30 @@
                 },
                 {
                     "name": "",
+                    "id": "ff4e0180-14f5-40fc-931d-9c881aa49300",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Correr",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "87ea6b65-fb86-49c6-971f-ff28816e9181",
                     "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saltar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcaedf6d-6381-4837-8e18-d997a47fc2f9",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -110,6 +132,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "AtaqueDsitancia",
+                    "type": "Button",
+                    "id": "fe75044b-946e-4e94-b41b-4724b861cd82",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -121,6 +151,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "AtaqueBasico",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05e78738-b295-45fd-be17-d64328cf46e3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtaqueBasico",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "339547de-8e91-4113-97c1-49eccc7a8bac",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AtaqueDsitancia",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

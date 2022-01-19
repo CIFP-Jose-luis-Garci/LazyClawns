@@ -12,15 +12,17 @@ public class Combat : MonoBehaviour
 
     InputSystem inputCr;
     bool ataque;
+    bool distancia;
 
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         inputCr = new InputSystem();
-        //Correr
+        //Meele
         inputCr.Ataque.AtaqueBasico.started += _ => { ataque = true; };
         inputCr.Ataque.AtaqueBasico.canceled += _ => { ataque = false; };
+        
     }
 
     private void Start()
@@ -33,10 +35,15 @@ public class Combat : MonoBehaviour
         
         if (ataque )
         {
+            animator.SetBool("timeattack", true);
             Attack();
-            
             print("Atacado");
         }
+        else
+        {
+            animator.SetBool("timeattack", false);
+        }
+       
         
     }
 
@@ -57,6 +64,7 @@ public class Combat : MonoBehaviour
         Gizmos.DrawWireSphere(puntoDeAtaque.position, rangoAtaque);
 
     }
+
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
     {
         inputCr.Enable();
