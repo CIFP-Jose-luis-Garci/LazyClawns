@@ -8,11 +8,11 @@ public class Combat : MonoBehaviour
     [SerializeField] Transform puntoDeAtaque;
     public float rangoAtaque = 0.5f;
     public LayerMask enemyLayers;
-    public int daño = 30;
+    public int damage = 30;
 
     InputSystem inputCr;
     bool ataque;
-    bool distancia;
+    
 
 
     private void Awake()
@@ -20,8 +20,8 @@ public class Combat : MonoBehaviour
         animator = GetComponent<Animator>();
         inputCr = new InputSystem();
         //Meele
-        inputCr.Ataque.AtaqueBasico.started += _ => { ataque = true; };
-        inputCr.Ataque.AtaqueBasico.canceled += _ => { ataque = false; };
+        inputCr.Ataque.AtaqueBasico.started += _ => StartAttack();
+        inputCr.Ataque.AtaqueBasico.canceled += _ => StopAttack();
         
     }
 
@@ -33,18 +33,25 @@ public class Combat : MonoBehaviour
     private void Update()
     {
         
-        if (ataque )
-        {
-            animator.SetBool("timeattack", true);
-            hacerDaño();
-            
-        }
-        else
-        {
-            animator.SetBool("timeattack", false);
-        }
+
        
         
+    }
+
+    void StartAttack()
+    {
+ 
+            animator.SetBool("timeattack", true);
+            Attack();
+
+
+            
+
+    }
+
+    void StopAttack()
+    {
+        animator.SetBool("timeattack", false);
     }
 
     private void Attack()
@@ -54,7 +61,7 @@ public class Combat : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-           enemy.GetComponent<EnemyController>().TakeDamage(daño);
+           enemy.GetComponent<EnemyController>().TakeDamage(damage);
         }
 
     }
@@ -63,10 +70,6 @@ public class Combat : MonoBehaviour
         if (puntoDeAtaque == null) return;
         Gizmos.DrawWireSphere(puntoDeAtaque.position, rangoAtaque);
 
-    }
-    void hacerDaño()
-    {
-        Invoke("Attack", 1);
     }
 
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
