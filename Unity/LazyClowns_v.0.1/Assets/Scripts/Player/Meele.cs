@@ -31,15 +31,23 @@ public class Meele : MonoBehaviour
     }
     void StartAttack()
     {
-        animator.SetBool("timeattack", true);
-        animator.SetTrigger("attack");
-        Instantiate(hitBox, puntoDeAtaque);
-        rb2d.AddForce(Vector2.left, ForceMode2D.Impulse);
+        if(animator.GetBool("timeattack")==false)
+        {
+            animator.SetBool("timeattack", true);
+            animator.SetTrigger("attack");
+     
+        }
+        
+        
     }
     void StopAttack()
     {
-        animator.SetBool("timeattack", false);
+        animator.SetBool("timeattack", false); 
         
+    }
+    void Instanciador()
+    {
+        Instantiate(hitBox, puntoDeAtaque);
     }
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
     {

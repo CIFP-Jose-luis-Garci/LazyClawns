@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DistanceAttack : MonoBehaviour
+public class AtaqueDsitancia : MonoBehaviour
 {
-
     //bool alive;//Ajustar cuando haya scrip grande
 
-    [SerializeField] Transform transform;
-    [SerializeField] GameObject objeto;
+    [SerializeField] GameObject shotPoint;
+    [SerializeField] GameObject [] arma;
     private Animator animator;
 
     InputSystem inputCr;
@@ -31,14 +30,16 @@ public class DistanceAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-            AtaqueDistancia();
-        
+
+        AtaqueDistancia();
+
     }
 
     void Instanciador()
     {
-        Instantiate(objeto, transform);
+        int numA = Random.Range(0, arma.Length);
+        
+        Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation);
     }
 
     void AtaqueDistancia()
@@ -47,7 +48,7 @@ public class DistanceAttack : MonoBehaviour
         {
             animator.SetTrigger("AtaqueDistancia");
             animator.SetBool("timeattackDistance", true);
-            
+
         }
         else
         {

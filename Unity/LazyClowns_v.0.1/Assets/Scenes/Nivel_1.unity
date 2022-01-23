@@ -134,9 +134,9 @@ GameObject:
   - component: {fileID: 145794471}
   - component: {fileID: 145794472}
   - component: {fileID: 145794474}
-  - component: {fileID: 145794476}
   - component: {fileID: 145794475}
   - component: {fileID: 145794473}
+  - component: {fileID: 145794476}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -280,11 +280,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 145794470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7efe661cdbe266a4a88dd604af8287a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 022740cc72666774a930889cf706aa40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transform: {fileID: 848242080}
-  objeto: {fileID: 5905875382175712470, guid: 0b2f63e228244ee479f8b8eea5e2a098, type: 3}
+  shotPoint: {fileID: 848242079}
+  arma:
+  - {fileID: 5905875382175712470, guid: 0b2f63e228244ee479f8b8eea5e2a098, type: 3}
+  - {fileID: 1427076031094290869, guid: 54c93ff7e2ed6cc45a813cb85a76fd0d, type: 3}
 --- !u!1 &320307873
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +296,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 320307874}
-  - component: {fileID: 320307875}
   m_Layer: 0
   m_Name: InstanciadorAtaque
   m_TagString: Untagged
@@ -316,19 +317,6 @@ Transform:
   m_Father: {fileID: 145794471}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &320307875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320307873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2249fa003b41721408fbb12e566e35e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 30
 --- !u!1 &687580751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  push: 0
+  speed: 1
+  rb2D: {fileID: 0}
 --- !u!1 &2093261871
 GameObject:
   m_ObjectHideFlags: 0

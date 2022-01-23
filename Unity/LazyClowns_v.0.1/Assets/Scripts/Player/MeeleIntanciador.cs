@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MeeleIntanciador : MonoBehaviour
 {
 
     public int damage = 30;
@@ -10,13 +10,13 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Destroy(gameObject, 1f);
+        Invoke("Eliminar", 0.5f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,8 +24,15 @@ public class NewBehaviourScript : MonoBehaviour
         if (collision.tag == "Enemy")
         {
             collision.GetComponent<EnemyController>().TakeDamage(damage);
+
         }
         Destroy(gameObject);
+
+
     }
-   
+    void Eliminar()
+    {
+        Destroy(gameObject);
+    }
+
 }
