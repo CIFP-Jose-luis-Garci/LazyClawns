@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -17,12 +18,24 @@ public class PlayerMove : MonoBehaviour
     Animator animator;
 
 
-    bool alive = true;
+    bool alive;
     float desplX;
     float maxSpeed;
     float jumpForce;
     private bool facingRight = true;
     [SerializeField] float distanciaSuelo;
+
+    //Variables Barra de vida
+    public int salud;
+    public Slider slider;
+    public Gradient gradient;
+    public Image fill;
+
+    //Recoger Variables 
+    private VariablesPublicas variablesPublicas;
+
+    //Variables de reinicio
+    public Vector3 initPosition;
 
 
     private void Awake()
@@ -50,20 +63,34 @@ public class PlayerMove : MonoBehaviour
         maxSpeed = 4f;
         jumpForce = 2f;
         distanciaSuelo = 0.25f;
-        
+
+        salud = VariablesPublicas.saludCurrent;
+        slider.value = salud;
+        initPosition = gameObject.transform.position; 
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        salud = VariablesPublicas.saludCurrent;
+        slider.value = salud;
+        alive = VariablesPublicas.alive;
+
+
         if (alive)
         {
             Saltar();
             Correr();
         }
+        if(salud <=0)
+        {
+            Muerte();
+            Invoke("Reinicio", 1.5f);
+        }
         //print(movimiento);
-        
+     
+
     }
     private void FixedUpdate()
     {
@@ -131,6 +158,22 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Enemy")
+        {
+            VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - 20;
+        }
+    }
+    void Muerte()
+    {
+        animator.SetTrigger("Muerte");
+    }
+    void Reinicio()
+    {
+        transform.position = initPosition;
+        
+    }
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
     {
         inputCr.Enable();

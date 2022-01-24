@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
-        print(currentHealth);
+       // print(currentHealth);
         
     }
     private void FixedUpdate()
