@@ -18,6 +18,10 @@ public class MeeleIntanciador : MonoBehaviour
     {
         Invoke("Eliminar", 0.5f);
     }
+    void Eliminar()
+    {
+        Destroy(gameObject);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,9 +34,6 @@ public class MeeleIntanciador : MonoBehaviour
 
 
     }
-    void Eliminar()
-    {
-        Destroy(gameObject);
-    }
+    
 
 }

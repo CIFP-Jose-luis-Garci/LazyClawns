@@ -45,7 +45,7 @@ public class Meele : MonoBehaviour
         animator.SetBool("timeattack", false); 
         
     }
-    void Instanciador()
+    void InstanciadorAtaqueMeele()
     {
         Instantiate(hitBox, puntoDeAtaque);
     }

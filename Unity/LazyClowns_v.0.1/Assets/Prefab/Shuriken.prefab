@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688631183523286945}
   - component: {fileID: 436903759555594154}
-  - component: {fileID: 6293062242631397160}
+  - component: {fileID: 8203201642470203174}
   m_Layer: 0
   m_Name: Shuriken
   m_TagString: Untagged
@@ -59,7 +59,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.3, y: 5.3}
   m_EdgeRadius: 0
---- !u!114 &6293062242631397160
+--- !u!114 &8203201642470203174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,10 +68,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1427076031094290869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6d29b5e3eeb74645900c6d6675e7bef, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b2bda468f13b3e4abd6dc8cb2f5ca66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damageDistancia: 30
 --- !u!1 &2795881770452465173
 GameObject:
   m_ObjectHideFlags: 0

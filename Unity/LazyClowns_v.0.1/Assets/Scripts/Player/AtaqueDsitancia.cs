@@ -18,8 +18,8 @@ public class AtaqueDsitancia : MonoBehaviour
     {
         inputCr = new InputSystem();
         //Ataque a distancia
-        inputCr.Ataque.AtaqueDsitancia.started += _ => { ataque = true; };
-        inputCr.Ataque.AtaqueDsitancia.canceled += _ => { ataque = false; };
+        inputCr.Ataque.AtaqueDsitancia.started += _ => AtaqueDistanciaInicio();
+        inputCr.Ataque.AtaqueDsitancia.canceled += _ => AtaqueDistanciaFinal();
     }
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class AtaqueDsitancia : MonoBehaviour
     void Update()
     {
 
-        AtaqueDistancia();
+        
 
     }
 
@@ -42,18 +42,15 @@ public class AtaqueDsitancia : MonoBehaviour
         Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation);
     }
 
-    void AtaqueDistancia()
+    void AtaqueDistanciaInicio()
     {
-        if (ataque)
-        {
             animator.SetTrigger("AtaqueDistancia");
             animator.SetBool("timeattackDistance", true);
-
-        }
-        else
-        {
-            animator.SetBool("timeattackDistance", false);
-        }
+       
+    }
+    void AtaqueDistanciaFinal()
+    {
+        animator.SetBool("timeattackDistance", false);
     }
 
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
