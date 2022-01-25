@@ -76,7 +76,7 @@ public class PlayerMove : MonoBehaviour
         salud = VariablesPublicas.saludCurrent;
         slider.value = salud;
         alive = VariablesPublicas.alive;
-
+        fill.color = gradient.Evaluate(slider.normalizedValue);
 
         if (alive)
         {
