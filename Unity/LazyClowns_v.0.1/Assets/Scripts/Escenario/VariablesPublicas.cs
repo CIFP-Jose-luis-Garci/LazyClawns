@@ -8,6 +8,8 @@ public class VariablesPublicas : MonoBehaviour
     public static int saludCurrent;
     public static bool alive;
     public int vidas ;
+    public static int meleeDamage;
+    public static int distanceDamage;
 
 
     // Start is called before the first frame update
@@ -17,6 +19,8 @@ public class VariablesPublicas : MonoBehaviour
         vidas = 3;
         saludCurrent = saludMax;
         alive = true;
+        meleeDamage = 30;
+        distanceDamage = 15;
     }
 
     // Update is called once per frame

@@ -31,8 +31,8 @@ public class PlayerMove : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
-    //Recoger Variables 
-    private VariablesPublicas variablesPublicas;
+     
+    
 
     //Variables de reinicio
     public Vector3 initPosition;

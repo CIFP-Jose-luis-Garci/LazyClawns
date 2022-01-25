@@ -5,10 +5,11 @@ using UnityEngine;
 public class Shuriken : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int damageDistancia = 30;
+    public int damageDistancia;
     void Start()
     {
         //transform.parent = null;
+        damageDistancia = VariablesPublicas.distanceDamage;
     }
 
     // Update is called once per frame

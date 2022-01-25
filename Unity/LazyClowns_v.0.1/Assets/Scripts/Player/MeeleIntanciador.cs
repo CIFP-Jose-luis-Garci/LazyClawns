@@ -5,12 +5,12 @@ using UnityEngine;
 public class MeeleIntanciador : MonoBehaviour
 {
 
-    public int damage = 30;
+    public int damage;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        damage = VariablesPublicas.meleeDamage;
     }
 
     // Update is called once per frame
