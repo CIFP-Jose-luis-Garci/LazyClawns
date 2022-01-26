@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     private int currentHealth = 100;
     float maxSpeed = 3f;
     public float speed = 1;
-    [SerializeField] Rigidbody2D rb2D;
+    
 
     //private Animator animator;
 
@@ -20,21 +20,15 @@ public class EnemyController : MonoBehaviour
         //animator = GetComponent<Animator>();
         currentHealth = 100;
         boxCollider2D = GetComponent<BoxCollider2D>();
-        rb2D = GetComponent<Rigidbody2D>();
-
-        
-
+     
     }
     private void Update()
     {
-       // print(currentHealth);
+       
         
     }
-    private void FixedUpdate()
-    {
-        Mover();
-    }
 
+    //Recibir daño
     public void TakeDamage(int damage)
     {
         //animator.SetTrigger("hit");
@@ -43,7 +37,7 @@ public class EnemyController : MonoBehaviour
         if (currentHealth <= 0)
         {
             EnemyDie();
-            print("MUERTO");
+            
         }
         else
         {
@@ -51,12 +45,9 @@ public class EnemyController : MonoBehaviour
             
         }
     }
-    void Mover()
-    {
-        rb2D.velocity = new Vector2(-1 * maxSpeed, rb2D.velocity.y);   //Mantener velocidad en el aire y moverse sin que afecte(Movimiento en el aire)
-        speed = rb2D.velocity.x;
-    }
 
+
+    //Muerte
     private void EnemyDie()
     {
        //animator.SetBool("dead", true);
@@ -64,6 +55,8 @@ public class EnemyController : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }
+
+    //Metodos para recibir daño
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "AttackPoint")
@@ -71,8 +64,6 @@ public class EnemyController : MonoBehaviour
             speed = -2;
 
         }
-        
-
     }
     private void OnTriggerExit2D(Collider2D other)
     {

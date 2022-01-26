@@ -158,12 +158,11 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    public void TakeDamage(int damage)
     {
-        if(other.gameObject.tag == "Enemy")
-        {
-            VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - 20;
-        }
+
+       VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - damage;
+
     }
     void Muerte()
     {
