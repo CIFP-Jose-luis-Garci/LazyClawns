@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c094f10dd7ffdb743a78d1ffd51d86c9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mistral
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 80e74ce468508d845bc1592bfe05c117, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

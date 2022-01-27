@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class AttackMelee : MonoBehaviour
 {
+    [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
-    [SerializeField] private float colliderDistance;
     [SerializeField] private int damage;
+
+    [Header("Attack Parameters")]
+    [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
+
+    [Header("Player Layer")]
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
 
     //Referencias
     private Animator anim;
     private PlayerMove playerHealth;
+    private EnemyPatrol enemyPatrol;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        enemyPatrol = GetComponentInParent<EnemyPatrol>();
     }
 
     // Update is called once per frame
@@ -34,6 +41,9 @@ public class AttackMelee : MonoBehaviour
                 anim.SetTrigger("meleeAttack");
             } 
         }
+
+        if (enemyPatrol != null)
+            enemyPatrol.enabled = !PlayerInSight();
 
     }
     private bool PlayerInSight()

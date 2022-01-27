@@ -7,8 +7,8 @@ public class EnemyController : MonoBehaviour
     public int maxHealth = 100;
 
     private int currentHealth = 100;
-    float maxSpeed = 3f;
-    public float speed = 1;
+    
+    
     
 
     //private Animator animator;
@@ -56,23 +56,6 @@ public class EnemyController : MonoBehaviour
         this.enabled = false;
     }
 
-    //Metodos para recibir daño
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "AttackPoint")
-        {
-            speed = -2;
-
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.tag == "AttackPoint")
-        {
-            speed = 1;
-
-        }
-        
-    }
+    
 
 }
