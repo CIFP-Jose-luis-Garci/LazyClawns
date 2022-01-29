@@ -10,14 +10,15 @@ public class Botones : MonoBehaviour
     [SerializeField] Text volumenText;
     public float volumen;
     [SerializeField] Slider mySlider;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
-        mySlider.value = PlayerPrefs.GetFloat("volumenAudio", 0.5f);
+        mySlider.value = PlayerPrefs.GetFloat("volumenAudio", 1f);
         AudioListener.volume = mySlider.value;
-
+        
     }
 
     // Update is called once per frame
