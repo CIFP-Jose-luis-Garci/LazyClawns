@@ -26,19 +26,10 @@ public class VariablesPublicas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Morir();
-        print(vidas);
-    }
-    void Morir()
-    {
-        if (saludCurrent <= 0)
-        {
-            alive = false;
-            print("Has Muerto");
-
-        }
+        
         
     }
+    
   
 
 }

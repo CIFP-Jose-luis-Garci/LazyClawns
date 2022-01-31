@@ -18,7 +18,7 @@ public class PlayerMove : MonoBehaviour
     Animator animator;
 
 
-    bool alive;
+    bool vivo;
     float desplX;
     float maxSpeed;
     float jumpForce;
@@ -31,6 +31,8 @@ public class PlayerMove : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
+
+    bool muerto = false;
      
     
 
@@ -73,20 +75,21 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print(vivo);
         salud = VariablesPublicas.saludCurrent;
         slider.value = salud;
-        alive = VariablesPublicas.alive;
+        vivo = VariablesPublicas.alive;
         fill.color = gradient.Evaluate(slider.normalizedValue);
 
-        if (alive)
+        if (vivo)
         {
             Saltar();
             Correr();
         }
-        if(salud <=0)
+        if(salud <=0 && vivo)
         {
             Muerte();
-            Invoke("Reinicio", 1.5f);
+            //Invoke("Reinicio", 1.5f);
         }
         //print(movimiento);
      
@@ -94,7 +97,7 @@ public class PlayerMove : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (alive)
+        if (vivo)
         {
             Andar();
             Giro(desplX);
@@ -160,14 +163,26 @@ public class PlayerMove : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-
-       VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - damage;
-        animator.SetTrigger("Damage");
+        if (vivo)
+        {
+            VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - damage;
+            animator.SetTrigger("Damage");
+        }
+       
+        
 
     }
     void Muerte()
     {
-        animator.SetBool("Muerte", true);
+
+            print("me han  matado");
+            animator.SetTrigger("Muerte");
+            VariablesPublicas.alive = false;
+            Invoke("Reinicio", 2.5f);
+            BoxCollider2D bc = GetComponent<BoxCollider2D>();
+            bc.enabled = false;
+
+        
     }
     void Reinicio()
     {

@@ -91,7 +91,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""6ec3cf22-cd84-4e2d-af96-0456c7e2eaf1"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

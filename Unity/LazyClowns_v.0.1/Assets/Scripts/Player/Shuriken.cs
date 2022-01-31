@@ -23,13 +23,15 @@ public class Shuriken : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (collision.tag=="Enemy")
+        if (enemy.tag =="Enemy")
         {
-            collision.GetComponent<EnemyController>().TakeDamage(damageDistancia);
+            print("DADO");
+            enemy.GetComponent<EnemyController>().TakeDamage(damageDistancia);
             Destroy(gameObject);
         }
         
     }
+   
 }

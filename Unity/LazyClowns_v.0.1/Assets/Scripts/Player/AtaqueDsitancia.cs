@@ -39,7 +39,7 @@ public class AtaqueDsitancia : MonoBehaviour
     {
         int numA = Random.Range(0, arma.Length);
         
-        Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation);
+        GameObject Shuriken = Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation) as GameObject;
     }
 
     void AtaqueDistanciaInicio()

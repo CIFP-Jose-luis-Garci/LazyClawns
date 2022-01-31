@@ -11,27 +11,28 @@ public class EnemyController : MonoBehaviour
     
     
 
-    //private Animator animator;
+    private Animator animator;
 
     BoxCollider2D boxCollider2D;
 
     private void Start()
     {
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         currentHealth = 100;
         boxCollider2D = GetComponent<BoxCollider2D>();
+        
      
     }
     private void Update()
     {
-       
-        
+
+        print(currentHealth);
     }
 
     //Recibir daño
     public void TakeDamage(int damage)
     {
-        //animator.SetTrigger("hit");
+        animator.SetTrigger("hit");
         
         
         if (currentHealth <= 0)
@@ -50,7 +51,7 @@ public class EnemyController : MonoBehaviour
     //Muerte
     private void EnemyDie()
     {
-       //animator.SetBool("dead", true);
+       animator.SetBool("dead", true);
 
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
