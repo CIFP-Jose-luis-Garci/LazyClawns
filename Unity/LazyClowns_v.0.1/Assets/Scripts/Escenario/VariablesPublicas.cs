@@ -16,7 +16,7 @@ public class VariablesPublicas : MonoBehaviour
     void Start()
     {
         saludMax = 100;
-        vidas = 3;
+        vidas = 1;
         saludCurrent = saludMax;
         alive = true;
         meleeDamage = 30;
@@ -33,19 +33,12 @@ public class VariablesPublicas : MonoBehaviour
     {
         if (saludCurrent <= 0)
         {
-            Invoke("Reinicio", 1.5f);
-            
-        }
-        if(vidas <= 0)
-        {
             alive = false;
             print("Has Muerto");
+
         }
+        
     }
-    void Reinicio()
-    {
-        saludCurrent = saludMax;
-        vidas--;
-    }
+  
 
 }

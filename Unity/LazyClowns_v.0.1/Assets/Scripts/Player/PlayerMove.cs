@@ -162,16 +162,20 @@ public class PlayerMove : MonoBehaviour
     {
 
        VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent - damage;
+        animator.SetTrigger("Damage");
 
     }
     void Muerte()
     {
-        animator.SetTrigger("Muerte");
+        animator.SetBool("Muerte", true);
     }
     void Reinicio()
     {
+
+        //Cambiar esto a escena de GameOver
         transform.position = initPosition;
         
+
     }
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
     {
