@@ -34,6 +34,7 @@ public class EnemyPatrol : MonoBehaviour
         animator.SetBool("moving", false);
     }
 
+    
     private void Update()
     {
 
