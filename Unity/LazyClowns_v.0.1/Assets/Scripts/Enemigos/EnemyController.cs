@@ -38,12 +38,22 @@ public class EnemyController : MonoBehaviour
         if (currentHealth <= 0)
         {
             EnemyDie();
+            if(GetComponentInParent<EnemyPatrol>() != null)
+            {
+                GetComponentInParent<EnemyPatrol>().enabled = false;
+            }
+            if(GetComponent<AttackMelee>() != null)
+            {
+                GetComponent<AttackMelee>().enabled = false;
+            }
+            
+            
             
         }
         else
         {
             currentHealth -= damage;
-            
+
         }
     }
 
@@ -51,10 +61,15 @@ public class EnemyController : MonoBehaviour
     //Muerte
     private void EnemyDie()
     {
-       animator.SetBool("dead", true);
+       animator.SetBool("die", true);
 
-        GetComponent<Collider2D>().enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        Invoke("Destruir", 0.75f);
+    }
+    private void Destruir()
+    {
+        Destroy(gameObject);
     }
 
     

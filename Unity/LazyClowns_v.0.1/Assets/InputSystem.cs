@@ -188,6 +188,17 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""action"": ""AtaqueDsitancia"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""252bcebe-5d60-4522-bd3f-d214c56ad753"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AtaqueDsitancia"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
