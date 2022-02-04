@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
     float desplX;
     float maxSpeed;
     float jumpForce;
-    private bool facingRight = true;
+    public bool facingRight = true;
     [SerializeField] float distanciaSuelo;
 
     //Variables Barra de vida
@@ -92,10 +92,12 @@ public class PlayerMove : MonoBehaviour
         {
             Saltar();
             Correr();
+            muerteCaida();
         }
         if(salud <=0 && vivo)
         {
             Muerte();
+            
             //Invoke("Reinicio", 1.5f);
         }
         //print(movimiento);
@@ -142,7 +144,7 @@ public class PlayerMove : MonoBehaviour
             animator.SetBool("IsGrounded", false);
         }
     }
-    void Giro(float horizontal)//Scrip para que cambie de direccion dependiendo de a que direccion se mueva
+    public void Giro(float horizontal)//Scrip para que cambie de direccion dependiendo de a que direccion se mueva
     {
         if (horizontal < 0 && facingRight || horizontal > 0 && !facingRight)
         {
@@ -186,8 +188,7 @@ public class PlayerMove : MonoBehaviour
             animator.SetTrigger("Muerte");
             VariablesPublicas.alive = false;
             Invoke("Reinicio", 2.5f);
-            BoxCollider2D bc = GetComponent<BoxCollider2D>();
-            //bc.enabled = false;
+            
             animator.SetBool("Muerto", true);
 
         
@@ -205,6 +206,17 @@ public class PlayerMove : MonoBehaviour
         inputCr.Enable();
     }
 
+    void muerteCaida()
+    {
+        if(transform.position.y <= -5)
+        {
+            animator.SetTrigger("Muerte");
+            VariablesPublicas.alive = false;
+            Invoke("Reinicio", 2.5f);
+            
+            animator.SetBool("Muerto", true);
+        }
+    }
     private void OnDisable()//Importantisimo para el funcionamiento del nuevo input system
     {
         inputCr.Disable();

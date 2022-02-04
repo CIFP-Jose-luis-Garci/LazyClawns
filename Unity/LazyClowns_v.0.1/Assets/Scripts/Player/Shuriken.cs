@@ -6,17 +6,28 @@ public class Shuriken : MonoBehaviour
 {
     // Start is called before the first frame update
     public int damageDistancia;
+    public bool lookingRight;
     void Start()
     {
         //transform.parent = null;
         damageDistancia = VariablesPublicas.distanceDamage;
+        lookingRight = GameObject.Find("Player").GetComponent<PlayerMove>().facingRight;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * 6f * Time.deltaTime);
-       Invoke("Eliminar", 10F);
+        if (lookingRight)
+        {
+            transform.Translate(Vector2.right * 6f * Time.deltaTime);
+        }
+        else
+        {
+            transform.Translate(Vector2.left * 6f * Time.deltaTime);
+            
+        }
+        Invoke("Eliminar", 10F);
+       
     }
     void Eliminar()
     {
@@ -31,7 +42,8 @@ public class Shuriken : MonoBehaviour
             enemy.GetComponent<EnemyController>().TakeDamage(damageDistancia);
             Destroy(gameObject);
         }
-        
+
     }
-   
+
+  
 }
