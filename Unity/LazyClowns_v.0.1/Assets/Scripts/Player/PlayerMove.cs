@@ -67,6 +67,7 @@ public class PlayerMove : MonoBehaviour
         maxSpeed = 4f;
         jumpForce = 2f;
         distanciaSuelo = 0.25f;
+        animator.SetBool("Muerto", false);
 
         salud = VariablesPublicas.saludCurrent;
         slider.value = salud;
@@ -186,7 +187,8 @@ public class PlayerMove : MonoBehaviour
             VariablesPublicas.alive = false;
             Invoke("Reinicio", 2.5f);
             BoxCollider2D bc = GetComponent<BoxCollider2D>();
-            bc.enabled = false;
+            //bc.enabled = false;
+            animator.SetBool("Muerto", true);
 
         
     }

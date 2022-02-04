@@ -2900,6 +2900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4111363100521723150, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
+      propertyPath: speed
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4111363100521723151, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
       propertyPath: m_Name
       value: EnemyPatrol
