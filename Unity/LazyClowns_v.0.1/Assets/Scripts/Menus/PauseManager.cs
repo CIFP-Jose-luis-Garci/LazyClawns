@@ -7,7 +7,7 @@ public class PauseManager : MonoBehaviour
 {
     InputSystem action;
 
-   public static bool paused = false;
+    public static bool paused = false;
     [SerializeField] GameObject pauseMenu;
 
     public static bool inventario = false;
