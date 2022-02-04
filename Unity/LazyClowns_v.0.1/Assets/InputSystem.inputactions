@@ -188,6 +188,52 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Pausa",
+            "id": "919007c3-68c3-4f49-9aa3-df3c97f3f76d",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "0b85b3f8-5d5c-4b13-aaff-67edf215a5b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Inventario",
+                    "type": "Button",
+                    "id": "2194d319-6c18-42cb-b036-3f51d238c2ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b452047d-95a4-42be-bcb7-a4d875f5ec65",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c61bdae7-48fd-499c-8d06-5433c6eef648",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

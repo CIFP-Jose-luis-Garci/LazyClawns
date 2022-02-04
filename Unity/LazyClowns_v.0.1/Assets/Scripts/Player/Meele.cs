@@ -31,7 +31,10 @@ public class Meele : MonoBehaviour
     }
     void StartAttack()
     {
-        if(animator.GetBool("timeattack")==false)
+        if (PauseManager.paused || PauseManager.inventario)
+            return;
+
+        if (animator.GetBool("timeattack")==false)
         {
             animator.SetBool("timeattack", true);
             animator.SetTrigger("attack");
@@ -47,6 +50,9 @@ public class Meele : MonoBehaviour
     }
     void InstanciadorAtaqueMeele()
     {
+        if (PauseManager.paused || PauseManager.inventario)
+            return;
+
         Instantiate(hitBox, puntoDeAtaque);
     }
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system

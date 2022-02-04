@@ -10,8 +10,8 @@ public class Botones : MonoBehaviour
     [SerializeField] Text volumenText;
     public float volumen;
     [SerializeField] Slider mySlider;
-    
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,8 @@ public class Botones : MonoBehaviour
 
     public void CargarEscena(int escena)
     {
+        Time.timeScale = 1f;
+        PauseManager.paused = false;
         SceneManager.LoadScene(escena);
     }
 
@@ -45,4 +47,6 @@ public class Botones : MonoBehaviour
         volumen = (mySlider.value);
         volumenText.text = "VOLUMEN:" + volumen;
     }
+
+    
 }

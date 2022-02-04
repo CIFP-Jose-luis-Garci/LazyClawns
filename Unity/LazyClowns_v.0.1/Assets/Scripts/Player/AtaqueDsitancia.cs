@@ -37,6 +37,9 @@ public class AtaqueDsitancia : MonoBehaviour
 
     void Instanciador()
     {
+        if (PauseManager.paused || PauseManager.inventario)
+            return; 
+
         int numA = Random.Range(0, arma.Length);
         
         GameObject Shuriken = Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation) as GameObject;
@@ -44,7 +47,10 @@ public class AtaqueDsitancia : MonoBehaviour
 
     void AtaqueDistanciaInicio()
     {
-            animator.SetTrigger("AtaqueDistancia");
+        if (PauseManager.paused || PauseManager.inventario)
+            return;
+
+        animator.SetTrigger("AtaqueDistancia");
             animator.SetBool("timeattackDistance", true);
        
     }

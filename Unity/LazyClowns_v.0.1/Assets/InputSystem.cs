@@ -201,6 +201,52 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Pausa"",
+            ""id"": ""919007c3-68c3-4f49-9aa3-df3c97f3f76d"",
+            ""actions"": [
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""0b85b3f8-5d5c-4b13-aaff-67edf215a5b6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Inventario"",
+                    ""type"": ""Button"",
+                    ""id"": ""2194d319-6c18-42cb-b036-3f51d238c2ba"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""b452047d-95a4-42be-bcb7-a4d875f5ec65"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c61bdae7-48fd-499c-8d06-5433c6eef648"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inventario"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -214,6 +260,10 @@ public class @InputSystem : IInputActionCollection, IDisposable
         m_Ataque = asset.FindActionMap("Ataque", throwIfNotFound: true);
         m_Ataque_AtaqueBasico = m_Ataque.FindAction("AtaqueBasico", throwIfNotFound: true);
         m_Ataque_AtaqueDsitancia = m_Ataque.FindAction("AtaqueDsitancia", throwIfNotFound: true);
+        // Pausa
+        m_Pausa = asset.FindActionMap("Pausa", throwIfNotFound: true);
+        m_Pausa_Pause = m_Pausa.FindAction("Pause", throwIfNotFound: true);
+        m_Pausa_Inventario = m_Pausa.FindAction("Inventario", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -349,6 +399,47 @@ public class @InputSystem : IInputActionCollection, IDisposable
         }
     }
     public AtaqueActions @Ataque => new AtaqueActions(this);
+
+    // Pausa
+    private readonly InputActionMap m_Pausa;
+    private IPausaActions m_PausaActionsCallbackInterface;
+    private readonly InputAction m_Pausa_Pause;
+    private readonly InputAction m_Pausa_Inventario;
+    public struct PausaActions
+    {
+        private @InputSystem m_Wrapper;
+        public PausaActions(@InputSystem wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Pause => m_Wrapper.m_Pausa_Pause;
+        public InputAction @Inventario => m_Wrapper.m_Pausa_Inventario;
+        public InputActionMap Get() { return m_Wrapper.m_Pausa; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(PausaActions set) { return set.Get(); }
+        public void SetCallbacks(IPausaActions instance)
+        {
+            if (m_Wrapper.m_PausaActionsCallbackInterface != null)
+            {
+                @Pause.started -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
+                @Inventario.started -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
+                @Inventario.performed -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
+                @Inventario.canceled -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
+            }
+            m_Wrapper.m_PausaActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
+                @Inventario.started += instance.OnInventario;
+                @Inventario.performed += instance.OnInventario;
+                @Inventario.canceled += instance.OnInventario;
+            }
+        }
+    }
+    public PausaActions @Pausa => new PausaActions(this);
     public interface IMovimientoActions
     {
         void OnAndar(InputAction.CallbackContext context);
@@ -359,5 +450,10 @@ public class @InputSystem : IInputActionCollection, IDisposable
     {
         void OnAtaqueBasico(InputAction.CallbackContext context);
         void OnAtaqueDsitancia(InputAction.CallbackContext context);
+    }
+    public interface IPausaActions
+    {
+        void OnPause(InputAction.CallbackContext context);
+        void OnInventario(InputAction.CallbackContext context);
     }
 }

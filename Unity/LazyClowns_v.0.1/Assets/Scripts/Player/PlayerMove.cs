@@ -59,6 +59,8 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         animator = GetComponentInChildren<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
@@ -75,6 +77,10 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PauseManager.paused || PauseManager.inventario)
+            return;
+
+
         print(vivo);
         salud = VariablesPublicas.saludCurrent;
         slider.value = salud;
