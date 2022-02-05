@@ -48,5 +48,10 @@ public class Botones : MonoBehaviour
         volumenText.text = "VOLUMEN:" + volumen;
     }
 
+    public void Salir()
+    {
+
+        Application.Quit();
+    }
     
 }

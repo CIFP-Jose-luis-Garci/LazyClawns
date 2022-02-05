@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -183,15 +184,17 @@ public class PlayerMove : MonoBehaviour
     }
     void Muerte()
     {
-
+            StartCoroutine("Morir");
             print("me han  matado");
             animator.SetTrigger("Muerte");
             VariablesPublicas.alive = false;
-            Invoke("Reinicio", 2.5f);
+         // Invoke("Reinicio", 2.5f);
             
             animator.SetBool("Muerto", true);
+            
+            
 
-        
+
     }
     void Reinicio()
     {
@@ -199,6 +202,16 @@ public class PlayerMove : MonoBehaviour
         //Cambiar esto a escena de GameOver
         transform.position = initPosition;
         
+
+    }
+    IEnumerator Morir()
+    {
+        while (true)
+        {
+            
+            yield return new WaitForSeconds(3f);
+            SceneManager.LoadScene("GameOver");
+        }
 
     }
     private void OnEnable()//Importantisimo para el funcionamiento del nuevo input system
