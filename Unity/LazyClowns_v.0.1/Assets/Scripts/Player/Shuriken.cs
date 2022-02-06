@@ -23,7 +23,8 @@ public class Shuriken : MonoBehaviour
         }
         else
         {
-            transform.Translate(Vector2.left * 6f * Time.deltaTime);
+            transform.Translate(Vector2.right * 6f * Time.deltaTime);
+            gameObject.transform.rotation = new Quaternion (0f, 180f, 0f,0f);
             
         }
         Invoke("Eliminar", 10F);

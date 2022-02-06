@@ -155,7 +155,7 @@ public class PlayerMove : MonoBehaviour
             transform.localScale = theScale;
         }
     }
-    void Correr()//Cuando haya animaciones descomentar y comprobar
+    void Correr()
     {
         speed = rb2D.velocity.x;
         if (correr && Mathf.Abs(speed) > 0)
@@ -200,7 +200,8 @@ public class PlayerMove : MonoBehaviour
     {
 
         //Cambiar esto a escena de GameOver
-        transform.position = initPosition;
+        SceneManager.LoadScene(5);
+        
         
 
     }
