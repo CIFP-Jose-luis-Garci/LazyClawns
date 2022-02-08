@@ -18,6 +18,12 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rb2D;
     Animator animator;
 
+    //Animator Override
+    [SerializeField] AnimatorOverrideController animatorOverride;
+    [SerializeField] AnimationClip[] clips;
+    //Array con las animaciones
+    string[] clipsNames = { "Andar", "Correr", "Damage", "Idle" };
+
 
     bool vivo;
     float desplX;
@@ -63,6 +69,12 @@ public class PlayerMove : MonoBehaviour
         
 
         animator = GetComponentInChildren<Animator>();
+
+        //Adjudica las animaciones
+        animator.runtimeAnimatorController = animatorOverride;
+
+        UpdateSkins("rojo");
+
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
         maxSpeed = 4f;
@@ -234,5 +246,19 @@ public class PlayerMove : MonoBehaviour
     private void OnDisable()//Importantisimo para el funcionamiento del nuevo input system
     {
         inputCr.Disable();
+    }
+
+
+    void UpdateSkins(string color)
+    {
+
+        //Hacemos un bucle por los nombres
+        int n = 0;
+        foreach (string nombre in clipsNames)
+        {
+            print(nombre);
+            animatorOverride[nombre] = clips[n];
+            n++;
+        }
     }
 }
