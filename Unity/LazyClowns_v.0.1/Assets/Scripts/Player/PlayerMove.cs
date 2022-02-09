@@ -20,10 +20,15 @@ public class PlayerMove : MonoBehaviour
 
     //Animator Override
     [SerializeField] AnimatorOverrideController animatorOverride;
-    [SerializeField] AnimationClip[] clips;
-    //Array con las animaciones
-    string[] clipsNames = { "Andar", "Correr", "Damage", "Idle" };
-
+    //Array con las animaciones del Animator Override Controller (que lo toma del Animator "Sprite"
+    string[] clipsNames = { "Andar", "Correr", "Damage", "Distancia", "Idle", "Meele", "Muerte", "Salto" };
+    //Arrays con las animaciones correspondientes de cada skin
+    [SerializeField] AnimationClip[] skinSinRopa = new AnimationClip[8];
+    [SerializeField] AnimationClip[] skinMorado = new AnimationClip[8];
+    [SerializeField] AnimationClip[] skinAzul = new AnimationClip[8];
+    [SerializeField] AnimationClip[] skinAmarillo = new AnimationClip[8];
+    //Array que cogerá los valore
+    AnimationClip[] arraySkins = new AnimationClip[8];
 
     bool vivo;
     float desplX;
@@ -73,7 +78,7 @@ public class PlayerMove : MonoBehaviour
         //Adjudica las animaciones
         animator.runtimeAnimatorController = animatorOverride;
 
-        UpdateSkins("rojo");
+        UpdateSkins("morado");
 
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
@@ -251,13 +256,22 @@ public class PlayerMove : MonoBehaviour
 
     void UpdateSkins(string color)
     {
-
+        //Asignamos el array de skins que le corresponda
+        //AnimationClip[] arraySkins;
+        if (color == "morado")
+            arraySkins = skinMorado;
+        else if (color == "azul")
+            arraySkins = skinAzul;
+        else if (color == "amarillo")
+            arraySkins = skinAzul;
+        else 
+            arraySkins = skinSinRopa;
         //Hacemos un bucle por los nombres
         int n = 0;
         foreach (string nombre in clipsNames)
         {
             print(nombre);
-            animatorOverride[nombre] = clips[n];
+            animatorOverride[nombre] = arraySkins[n];
             n++;
         }
     }
