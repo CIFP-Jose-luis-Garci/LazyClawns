@@ -3085,6 +3085,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  animatorOverride: {fileID: 0}
+  clips: []
   facingRight: 1
   distanciaSuelo: 0
   salud: 0
