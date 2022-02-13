@@ -18,6 +18,19 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rb2D;
     Animator animator;
 
+    //SEELCCIÓN DE SKIN
+    //Booleana que indica que se está seleccionando
+    bool selectingSkin = false;
+    Vector2 selecSkinAxis;
+    //Skin seleccionado: 0=> Sin ropa / 1=> Azul  / 2 => Amarillo/ 3 => Morado
+    int skinSelected = 0;
+    int currentSkin; //Para diferenciar la actual de la nueva
+
+    //Sprite con el menú de selección y array con las imágenes
+    GameObject menuSkinParent;
+    [SerializeField] Image menuSkinImage;
+    [SerializeField] Sprite[] imagesSkin = new Sprite[4];
+
     //Animator Override
     [SerializeField] AnimatorOverrideController animatorOverride;
     //Array con las animaciones del Animator Override Controller (que lo toma del Animator "Sprite"
@@ -64,7 +77,12 @@ public class PlayerMove : MonoBehaviour
         //Saltar
         inputCr.Movimiento.Saltar.started += _ => { saltar = true; };
         inputCr.Movimiento.Saltar.canceled += _ => { saltar = false; };
-
+        //Abrir el menú de selección de skin
+        inputCr.Movimiento.Skin.started += _ => { selectingSkin = true; };
+        inputCr.Movimiento.Skin.canceled += _ => { selectingSkin = false; };
+        //Ejes de selección de skin
+        inputCr.Movimiento.SkinSelect.performed += ctx => selecSkinAxis = ctx.ReadValue<Vector2>();
+        inputCr.Movimiento.SkinSelect.canceled += ctx => selecSkinAxis = Vector2.zero;
 
     }
 
@@ -78,7 +96,13 @@ public class PlayerMove : MonoBehaviour
         //Adjudica las animaciones
         animator.runtimeAnimatorController = animatorOverride;
 
-        UpdateSkins("morado");
+        //Oculto el menú de selección de skin y asigno el básico
+        menuSkinParent = GameObject.Find("SelectSkin");
+        menuSkinParent.SetActive(false);
+        
+
+        UpdateSkins("sinRopa");
+        menuSkinImage.sprite = imagesSkin[0];
 
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
@@ -100,18 +124,21 @@ public class PlayerMove : MonoBehaviour
             return;
 
 
-        print(vivo);
+        //print(vivo);
         salud = VariablesPublicas.saludCurrent;
         slider.value = salud;
         vivo = VariablesPublicas.alive;
         fill.color = gradient.Evaluate(slider.normalizedValue);
 
+        //Si estoy vivo y no estoy seleccionando personaje
         if (vivo)
         {
             Saltar();
             Correr();
             muerteCaida();
+            SelectSkin();
         }
+
         if(salud <=0 && vivo)
         {
             Muerte();
@@ -135,6 +162,9 @@ public class PlayerMove : MonoBehaviour
 
     void Andar()
     {
+        if (selectingSkin)
+            return;
+
         desplX = movimiento;
         rb2D.velocity = new Vector2(desplX* maxSpeed, rb2D.velocity.y);   //Mantener velocidad en el aire y moverse sin que afecte(Movimiento en el aire)
         speed = rb2D.velocity.x;
@@ -253,6 +283,74 @@ public class PlayerMove : MonoBehaviour
         inputCr.Disable();
     }
 
+    void SelectSkin()
+    {
+       
+        //Interruptor para mostrar el menu, y para cuando soltamos el botón
+        if (!menuSkinParent.activeSelf && selectingSkin)
+        {
+            currentSkin = skinSelected;
+            menuSkinParent.SetActive(true);
+        }
+        else if(menuSkinParent.activeSelf && !selectingSkin)
+        {
+            print("Eligiendo: " + selectingSkin);
+            //Asignamos el nuevo skin, si es diferente
+            if(currentSkin != skinSelected)
+            {
+                switch (skinSelected)
+                {
+
+                    case 1:
+                        UpdateSkins("azul");
+                        break;
+                    case 2:
+                        UpdateSkins("amarillo");
+                        break;
+                    case 3:
+                        UpdateSkins("morado");
+                        break;
+                    default:
+                        UpdateSkins("");
+                        break;
+                }
+            }
+            //Ocultamos el menú
+            menuSkinParent.SetActive(false);
+            //Aquí deberíamos poner la bomba de humo
+            
+        }
+
+        //Asignamos el personaje según el valor del eje
+        if(selectingSkin)
+        {
+            print(selecSkinAxis);
+            if(selecSkinAxis.y == 1 && skinSelected != 0)
+            {
+                skinSelected = 0;
+                menuSkinImage.sprite = imagesSkin[0];
+
+            }
+            else if (selecSkinAxis.x == 1 && skinSelected != 1)
+            {
+                skinSelected = 1;
+                menuSkinImage.sprite = imagesSkin[1];
+
+            }
+            else if (selecSkinAxis.y == -1 && skinSelected != 2)
+            {
+                skinSelected = 2;
+                menuSkinImage.sprite = imagesSkin[2];
+
+            }
+            else if (selecSkinAxis.x == -1 && skinSelected != 3)
+            {
+                skinSelected = 3;
+                menuSkinImage.sprite = imagesSkin[3];
+
+            }
+        }
+    }
 
     void UpdateSkins(string color)
     {
@@ -263,7 +361,7 @@ public class PlayerMove : MonoBehaviour
         else if (color == "azul")
             arraySkins = skinAzul;
         else if (color == "amarillo")
-            arraySkins = skinAzul;
+            arraySkins = skinAmarillo;
         else 
             arraySkins = skinSinRopa;
         //Hacemos un bucle por los nombres

@@ -41,6 +41,22 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Skin"",
+                    ""type"": ""Button"",
+                    ""id"": ""52bec40a-df32-4755-b7a9-874871fd7e08"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""SkinSelect"",
+                    ""type"": ""Value"",
+                    ""id"": ""3d397720-2632-4f76-82c5-ad02172df8a9"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -129,6 +145,28 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Saltar"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""73cfdeb8-0f5b-4ee5-8783-e0d28af6898a"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Skin"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db896fee-191c-4f62-8f19-fbf81afdf883"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": ""NormalizeVector2"",
+                    ""groups"": """",
+                    ""action"": ""SkinSelect"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -256,6 +294,8 @@ public class @InputSystem : IInputActionCollection, IDisposable
         m_Movimiento_Andar = m_Movimiento.FindAction("Andar", throwIfNotFound: true);
         m_Movimiento_Correr = m_Movimiento.FindAction("Correr", throwIfNotFound: true);
         m_Movimiento_Saltar = m_Movimiento.FindAction("Saltar", throwIfNotFound: true);
+        m_Movimiento_Skin = m_Movimiento.FindAction("Skin", throwIfNotFound: true);
+        m_Movimiento_SkinSelect = m_Movimiento.FindAction("SkinSelect", throwIfNotFound: true);
         // Ataque
         m_Ataque = asset.FindActionMap("Ataque", throwIfNotFound: true);
         m_Ataque_AtaqueBasico = m_Ataque.FindAction("AtaqueBasico", throwIfNotFound: true);
@@ -316,6 +356,8 @@ public class @InputSystem : IInputActionCollection, IDisposable
     private readonly InputAction m_Movimiento_Andar;
     private readonly InputAction m_Movimiento_Correr;
     private readonly InputAction m_Movimiento_Saltar;
+    private readonly InputAction m_Movimiento_Skin;
+    private readonly InputAction m_Movimiento_SkinSelect;
     public struct MovimientoActions
     {
         private @InputSystem m_Wrapper;
@@ -323,6 +365,8 @@ public class @InputSystem : IInputActionCollection, IDisposable
         public InputAction @Andar => m_Wrapper.m_Movimiento_Andar;
         public InputAction @Correr => m_Wrapper.m_Movimiento_Correr;
         public InputAction @Saltar => m_Wrapper.m_Movimiento_Saltar;
+        public InputAction @Skin => m_Wrapper.m_Movimiento_Skin;
+        public InputAction @SkinSelect => m_Wrapper.m_Movimiento_SkinSelect;
         public InputActionMap Get() { return m_Wrapper.m_Movimiento; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -341,6 +385,12 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Saltar.started -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSaltar;
                 @Saltar.performed -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSaltar;
                 @Saltar.canceled -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSaltar;
+                @Skin.started -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkin;
+                @Skin.performed -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkin;
+                @Skin.canceled -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkin;
+                @SkinSelect.started -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkinSelect;
+                @SkinSelect.performed -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkinSelect;
+                @SkinSelect.canceled -= m_Wrapper.m_MovimientoActionsCallbackInterface.OnSkinSelect;
             }
             m_Wrapper.m_MovimientoActionsCallbackInterface = instance;
             if (instance != null)
@@ -354,6 +404,12 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Saltar.started += instance.OnSaltar;
                 @Saltar.performed += instance.OnSaltar;
                 @Saltar.canceled += instance.OnSaltar;
+                @Skin.started += instance.OnSkin;
+                @Skin.performed += instance.OnSkin;
+                @Skin.canceled += instance.OnSkin;
+                @SkinSelect.started += instance.OnSkinSelect;
+                @SkinSelect.performed += instance.OnSkinSelect;
+                @SkinSelect.canceled += instance.OnSkinSelect;
             }
         }
     }
@@ -445,6 +501,8 @@ public class @InputSystem : IInputActionCollection, IDisposable
         void OnAndar(InputAction.CallbackContext context);
         void OnCorrer(InputAction.CallbackContext context);
         void OnSaltar(InputAction.CallbackContext context);
+        void OnSkin(InputAction.CallbackContext context);
+        void OnSkinSelect(InputAction.CallbackContext context);
     }
     public interface IAtaqueActions
     {
