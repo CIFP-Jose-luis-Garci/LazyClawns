@@ -65,7 +65,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""id"": ""4b930670-c58b-479e-aac2-ec9aaf375952"",
                     ""path"": ""<Gamepad>/leftStick/x"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Invert"",
                     ""groups"": """",
                     ""action"": ""Andar"",
                     ""isComposite"": false,
