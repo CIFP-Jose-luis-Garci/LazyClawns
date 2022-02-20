@@ -8,7 +8,7 @@ public class Controller : MonoBehaviour
     float rango;
     bool atacando = false;
 
-
+    int vida = 150;
 
     Animator animator;
     // Start is called before the first frame update
@@ -38,9 +38,33 @@ public class Controller : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        animator.SetTrigger("hit");
 
 
+        if (vida <= 0)
+        {
+            EnemyDie();
 
+        }
+        else
+        {
+            vida -= damage;
+
+        }
+    }
+
+    private void EnemyDie()
+    {
+        animator.SetBool("die", true);
+        this.enabled = false;
+        Invoke("Destruir", 0.75f);
+    }
+    private void Destruir()
+    {
+        Destroy(gameObject);
+    }
 
 
 }

@@ -37,11 +37,17 @@ public class Shuriken : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (enemy.tag =="Enemy")
+        if (enemy.name =="EnemyPatrol")
         {
             print("DADO");
             enemy.GetComponent<EnemyController>().TakeDamage(damageDistancia);
             Destroy(gameObject);
+        }
+        else if(enemy.name == "Monkey")
+        {
+            enemy.GetComponent<Controller>().TakeDamage(damageDistancia);
+            Destroy(gameObject);
+            print("DADO MONO");
         }
 
     }

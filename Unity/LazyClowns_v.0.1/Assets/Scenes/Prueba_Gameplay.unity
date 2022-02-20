@@ -134,9 +134,10 @@ GameObject:
   - component: {fileID: 132947218}
   - component: {fileID: 132947219}
   - component: {fileID: 132947220}
+  - component: {fileID: 132947221}
   m_Layer: 0
   m_Name: Monkey
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,6 +198,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2144206029}
+--- !u!50 &132947221
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132947217}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &165175458
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +536,7 @@ GameObject:
   - component: {fileID: 378881205}
   m_Layer: 0
   m_Name: Banana
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1249,7 +1271,7 @@ GameObject:
   - component: {fileID: 917108073}
   m_Layer: 0
   m_Name: Piel de Banana
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2527,7 +2549,7 @@ GameObject:
   - component: {fileID: 1844772808}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,8 +2652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piel: {fileID: 5086664680218016223, guid: eb6679a5f9ec67047b3cbada0f14a131, type: 3}
   banana: {fileID: 5850647237889003955, guid: afdd6435c1bd72b42aeac4ddc8304835, type: 3}
-  transPiel: {fileID: 917108073}
-  transBanana: {fileID: 378881205}
+  transPiel: {fileID: 378881205}
+  transBanana: {fileID: 917108073}
 --- !u!1 &1864823095
 GameObject:
   m_ObjectHideFlags: 0
