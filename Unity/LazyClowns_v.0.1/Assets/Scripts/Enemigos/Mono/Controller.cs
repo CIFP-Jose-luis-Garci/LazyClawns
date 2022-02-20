@@ -57,9 +57,9 @@ public class Controller : MonoBehaviour
 
     private void EnemyDie()
     {
-        animator.SetBool("die", true);
+        animator.SetTrigger("die");
         this.enabled = false;
-        Invoke("Destruir", 0.75f);
+        Invoke("Destruir", 0.5f);
     }
     private void Destruir()
     {
