@@ -1,0 +1,1824 @@
+fileFormatVersion: 2
+guid: 2f2e3014fcde0fe479f569f613308dbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4386167705257482288
+    second: mono_platano_0
+  - first:
+      213: -2519125839444316124
+    second: mono_platano_1
+  - first:
+      213: 370834726696993934
+    second: mono_platano_2
+  - first:
+      213: 6866611057939344901
+    second: mono_platano_3
+  - first:
+      213: 1799498607681602599
+    second: mono_platano_4
+  - first:
+      213: 6470262310174421479
+    second: mono_platano_5
+  - first:
+      213: -5645842769389549513
+    second: mono_platano_6
+  - first:
+      213: 2268752777142649942
+    second: mono_platano_7
+  - first:
+      213: -4961351816714833349
+    second: mono_platano_8
+  - first:
+      213: 2056008504147014883
+    second: mono_platano_9
+  - first:
+      213: -5480134185991077322
+    second: mono_platano_10
+  - first:
+      213: -1127349954142594281
+    second: mono_platano_11
+  - first:
+      213: -20059412593202522
+    second: mono_platano_12
+  - first:
+      213: -6151013641281308871
+    second: mono_platano_13
+  - first:
+      213: 8044664694048350776
+    second: mono_platano_14
+  - first:
+      213: 1181373975821366029
+    second: mono_platano_15
+  - first:
+      213: 5773085022771464528
+    second: mono_platano_16
+  - first:
+      213: -5266765675413897248
+    second: mono_platano_17
+  - first:
+      213: -3827428937972281804
+    second: mono_platano_18
+  - first:
+      213: 7881549522360795308
+    second: mono_platano_19
+  - first:
+      213: -742189681429029808
+    second: mono_platano_20
+  - first:
+      213: -8936211736017257614
+    second: mono_platano_21
+  - first:
+      213: -3058866441042805272
+    second: mono_platano_22
+  - first:
+      213: -5445453681139374980
+    second: mono_platano_23
+  - first:
+      213: -723048044207703054
+    second: mono_platano_24
+  - first:
+      213: 5435713102617621714
+    second: mono_platano_25
+  - first:
+      213: -1861563603165225235
+    second: mono_platano_26
+  - first:
+      213: -512627122410832779
+    second: mono_platano_27
+  - first:
+      213: 8428515786985178935
+    second: mono_platano_28
+  - first:
+      213: 5000444890409465724
+    second: mono_platano_29
+  - first:
+      213: 3904233122823235249
+    second: mono_platano_30
+  - first:
+      213: -2226287885824022419
+    second: mono_platano_31
+  - first:
+      213: 1222711687464747204
+    second: mono_platano_32
+  - first:
+      213: 5134755699451555758
+    second: mono_platano_33
+  - first:
+      213: -3843642671199090315
+    second: mono_platano_34
+  - first:
+      213: -1744290830844723756
+    second: mono_platano_35
+  - first:
+      213: 7522725789983402040
+    second: mono_platano_36
+  - first:
+      213: 10879980799262554
+    second: mono_platano_37
+  - first:
+      213: -7934308270465852972
+    second: mono_platano_38
+  - first:
+      213: 6245788785034059150
+    second: mono_platano_39
+  - first:
+      213: 4714520707238255290
+    second: mono_platano_40
+  - first:
+      213: 5301334835696555697
+    second: mono_platano_41
+  - first:
+      213: 312787118531242127
+    second: mono_platano_42
+  - first:
+      213: -8675597023693044746
+    second: mono_platano_43
+  - first:
+      213: -2312870677248682143
+    second: mono_platano_44
+  - first:
+      213: -1925684911769802969
+    second: mono_platano_45
+  - first:
+      213: -1848974114377906124
+    second: mono_platano_46
+  - first:
+      213: 5440733728126284346
+    second: mono_platano_47
+  - first:
+      213: -7104132356366120319
+    second: mono_platano_48
+  - first:
+      213: 3268144560658196110
+    second: mono_platano_49
+  - first:
+      213: 8340003596815180314
+    second: mono_platano_50
+  - first:
+      213: 6567365878955127342
+    second: mono_platano_51
+  - first:
+      213: -6291017587023847492
+    second: mono_platano_52
+  - first:
+      213: 2400667511032760766
+    second: mono_platano_53
+  - first:
+      213: 5941170149539667244
+    second: mono_platano_54
+  - first:
+      213: -7613991869539837379
+    second: mono_platano_55
+  - first:
+      213: -1737626945710136739
+    second: mono_platano_56
+  - first:
+      213: 5447212308594968640
+    second: mono_platano_57
+  - first:
+      213: 8333523349096858877
+    second: mono_platano_58
+  - first:
+      213: 8098861551297859119
+    second: mono_platano_59
+  - first:
+      213: -2886200671716258443
+    second: mono_platano_60
+  - first:
+      213: -2866601474002755261
+    second: mono_platano_61
+  - first:
+      213: 3833437632204580406
+    second: mono_platano_62
+  - first:
+      213: 4333408595724850621
+    second: mono_platano_63
+  - first:
+      213: -3832698353462419982
+    second: mono_platano_64
+  - first:
+      213: -2536846355467459299
+    second: mono_platano_65
+  - first:
+      213: -3041999661292316169
+    second: mono_platano_66
+  - first:
+      213: -2131945355668299304
+    second: mono_platano_67
+  - first:
+      213: -6783447179154268177
+    second: mono_platano_68
+  - first:
+      213: 3422878934210371688
+    second: mono_platano_69
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mono_platano_0
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 8028
+        width: 183
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038992df94ccedc30800000000000000
+      internalID: 4386167705257482288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_1
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 8028
+        width: 187
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420f96b55644a0dd0800000000000000
+      internalID: -2519125839444316124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_2
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8028
+        width: 195
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84472b1838752500800000000000000
+      internalID: 370834726696993934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_3
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 8028
+        width: 208
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e6e37506a1b4f50800000000000000
+      internalID: 6866611057939344901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_4
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 8028
+        width: 215
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7240ca4137a19f810800000000000000
+      internalID: 1799498607681602599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 7433
+        width: 220
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e17b894a4dfac950800000000000000
+      internalID: 6470262310174421479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_6
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 7433
+        width: 216
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73804d80aefe5a1b0800000000000000
+      internalID: -5645842769389549513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_7
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 7433
+        width: 203
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c4c461aa3c7f10800000000000000
+      internalID: 2268752777142649942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 7433
+        width: 199
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3239fe1fccb52bb0800000000000000
+      internalID: -4961351816714833349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_9
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 7433
+        width: 188
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47dd067d8688c10800000000000000
+      internalID: 2056008504147014883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6835
+        width: 191
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632078a2ef6a2f3b0800000000000000
+      internalID: -5480134185991077322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6835
+        width: 191
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b17cd8039da50f0800000000000000
+      internalID: -1127349954142594281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_12
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6835
+        width: 195
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaaafd021cb8bff0800000000000000
+      internalID: -20059412593202522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_13
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 6835
+        width: 208
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93778d6cea533aaa0800000000000000
+      internalID: -6151013641281308871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_14
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 6835
+        width: 215
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e0e1bae364af60800000000000000
+      internalID: 8044664694048350776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6240
+        width: 219
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0339bf2f55156010800000000000000
+      internalID: 1181373975821366029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_16
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 6240
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059cb68bd3e1e1050800000000000000
+      internalID: 5773085022771464528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_17
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 6240
+        width: 203
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effbb1d580b8e6b0800000000000000
+      internalID: -5266765675413897248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_18
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6240
+        width: 199
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e8c15d8ad32eac0800000000000000
+      internalID: -3827428937972281804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_19
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 6240
+        width: 184
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca007f74883e06d60800000000000000
+      internalID: 7881549522360795308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 5645
+        width: 179
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c5672ca6633b5f0800000000000000
+      internalID: -742189681429029808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_21
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 5645
+        width: 187
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bb30da5c23cf380800000000000000
+      internalID: -8936211736017257614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_22
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5645
+        width: 195
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edb74ead29bc85d0800000000000000
+      internalID: -3058866441042805272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_23
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 5645
+        width: 208
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7428de6abcdd64b0800000000000000
+      internalID: -5445453681139374980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_24
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 5645
+        width: 215
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb757972a737f5f0800000000000000
+      internalID: -723048044207703054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 5048
+        width: 220
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4b57664488f6b40800000000000000
+      internalID: 5435713102617621714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_26
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 5048
+        width: 216
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee5a8214c56a26e0800000000000000
+      internalID: -1861563603165225235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_27
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 5047
+        width: 203
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cb8722958c2e8f0800000000000000
+      internalID: -512627122410832779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_28
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5050
+        width: 199
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737060bb37a18f470800000000000000
+      internalID: 8428515786985178935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_29
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 5047
+        width: 184
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77f5c36226256540800000000000000
+      internalID: 5000444890409465724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_30
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4451
+        width: 179
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66136f65f9e2630800000000000000
+      internalID: 3904233122823235249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_31
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 4451
+        width: 188
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6824b596f2aa11e0800000000000000
+      internalID: -2226287885824022419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_32
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4451
+        width: 195
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c00e023dc1f7f010800000000000000
+      internalID: 1222711687464747204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_33
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 4451
+        width: 208
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafe8328a11524740800000000000000
+      internalID: 5134755699451555758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_34
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 4451
+        width: 215
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57905a3ea53a8aac0800000000000000
+      internalID: -3843642671199090315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 3856
+        width: 219
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd77822bb80bc7e0800000000000000
+      internalID: -1744290830844723756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_36
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 3856
+        width: 216
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83861a6bf37166860800000000000000
+      internalID: 7522725789983402040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_37
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3856
+        width: 220
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ff3bee847a62000800000000000000
+      internalID: 10879980799262554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_38
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 3856
+        width: 218
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d950707aaca3e190800000000000000
+      internalID: -7934308270465852972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_39
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 3856
+        width: 216
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dd212fecf7da650800000000000000
+      internalID: 6245788785034059150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3261
+        width: 220
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abad829ca975d6140800000000000000
+      internalID: 4714520707238255290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_41
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 3261
+        width: 216
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d81502ff129940800000000000000
+      internalID: 5301334835696555697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_42
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3261
+        width: 220
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f886f522a3e375400800000000000000
+      internalID: 312787118531242127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_43
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 3261
+        width: 219
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f30754e8761a9780800000000000000
+      internalID: -8675597023693044746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_44
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 3261
+        width: 216
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167dc278f5807efd0800000000000000
+      internalID: -2312870677248682143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 2663
+        width: 219
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727a1a486c79645e0800000000000000
+      internalID: -1925684911769802969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2663
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438cc99d6df1756e0800000000000000
+      internalID: -1848974114377906124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_47
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 2663
+        width: 220
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32347edf7e518b40800000000000000
+      internalID: 5440733728126284346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_48
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 2663
+        width: 218
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a407dd24d096d90800000000000000
+      internalID: -7104132356366120319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_49
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 2663
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8628ac9928ca5d20800000000000000
+      internalID: 3268144560658196110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_50
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 2068
+        width: 219
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1226a58515adb370800000000000000
+      internalID: 8340003596815180314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_51
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2068
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e223425b878f32b50800000000000000
+      internalID: 6567365878955127342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_52
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 2068
+        width: 220
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf55b9f5d0d1b8a0800000000000000
+      internalID: -6291017587023847492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_53
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 2068
+        width: 218
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9cdeac162e05120800000000000000
+      internalID: 2400667511032760766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_54
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 2068
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d5779f5c6437250800000000000000
+      internalID: 5941170149539667244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_55
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1473
+        width: 219
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a9d5d3cbaa55690800000000000000
+      internalID: -7613991869539837379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_56
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1473
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52eccccf75b2e7e0800000000000000
+      internalID: -1737626945710136739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_57
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 1473
+        width: 220
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04840fdebb2689b40800000000000000
+      internalID: 5447212308594968640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_58
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1473
+        width: 219
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48756455f96a370800000000000000
+      internalID: 8333523349096858877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_59
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 1473
+        width: 216
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8d2adbafe46070800000000000000
+      internalID: 8098861551297859119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_60
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 876
+        width: 220
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dcbd3e7c722f7d0800000000000000
+      internalID: -2886200671716258443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_61
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 876
+        width: 216
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3416475b529c738d0800000000000000
+      internalID: -2866601474002755261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_62
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 875
+        width: 220
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6362b20573b133530800000000000000
+      internalID: 3833437632204580406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_63
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 878
+        width: 219
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5ddce882c532c30800000000000000
+      internalID: 4333408595724850621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_64
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 875
+        width: 216
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdd5ae67258fcac0800000000000000
+      internalID: -3832698353462419982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_65
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 279
+        width: 219
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d152e943eaf4bccd0800000000000000
+      internalID: -2536846355467459299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_66
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 279
+        width: 216
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f910dddc65a8c5d0800000000000000
+      internalID: -3041999661292316169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_67
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 279
+        width: 220
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e8da9efec962e0800000000000000
+      internalID: -2131945355668299304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_68
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 279
+        width: 218
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef52e51bba5cd1a0800000000000000
+      internalID: -6783447179154268177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono_platano_69
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 279
+        width: 216
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860e6c66142808f20800000000000000
+      internalID: 3422878934210371688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 82154a8ea286f3349a1e9f6997c2bca0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
