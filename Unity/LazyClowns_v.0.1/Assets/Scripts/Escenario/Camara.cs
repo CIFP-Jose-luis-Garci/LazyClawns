@@ -9,7 +9,7 @@ public class Camara : MonoBehaviour
     [SerializeField] float smoothVelocity = 0.3F;
     [SerializeField] Vector3 camaraVelocity = Vector3.zero;
 
-    float offsetY = 1f;
+    float offsetY = 7f;
     void FixedUpdate()
     {
         //Con este código, conseguimos que siga al objeto pero con suavidad

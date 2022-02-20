@@ -373,4 +373,18 @@ public class PlayerMove : MonoBehaviour
             n++;
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Plataforma")
+        {
+            transform.parent = collision.gameObject.transform;
+
+        }
+
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        transform.parent = null;
+
+    }
 }

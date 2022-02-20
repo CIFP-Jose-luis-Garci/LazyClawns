@@ -76,7 +76,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""id"": ""dc502534-2ffe-4241-9ff0-4e1cd1e45475"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Invert"",
                     ""groups"": """",
                     ""action"": ""Andar"",
                     ""isComposite"": true,
