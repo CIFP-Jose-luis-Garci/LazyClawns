@@ -13,6 +13,7 @@ public class PauseManager : MonoBehaviour
     public static bool inventario = false;
     [SerializeField] GameObject inventory;
 
+    Animator animator;
   
     private void Awake()
     {
@@ -35,17 +36,20 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 0f;
         inventario = true;
         inventory.SetActive(true);
+        
     }
     public void ResumeInventory()
     {
         Time.timeScale = 1f;
         inventario = false;
         inventory.SetActive(false);
+        
     }
     private void Start()
     {
         //pauseMenu = GameObject.Find("Pause");
         //inventory = GameObject.Find("Inventario");
+        animator = GetComponentInChildren<Animator>();
 
         action.Pausa.Pause.started += ctx => DeterminedPause();
         action.Pausa.Inventario.performed += ctx => DeterminedInventory();
