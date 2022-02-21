@@ -117,8 +117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   piel: {fileID: 5086664680218016223, guid: eb6679a5f9ec67047b3cbada0f14a131, type: 3}
   banana: {fileID: 5850647237889003955, guid: afdd6435c1bd72b42aeac4ddc8304835, type: 3}
-  transPiel: {fileID: 3235392562439212301}
-  transBanana: {fileID: 3235392562975866065}
+  transPiel: {fileID: 3235392562975866065}
+  transBanana: {fileID: 3235392562439212301}
 --- !u!1 &3235392562439212300
 GameObject:
   m_ObjectHideFlags: 0

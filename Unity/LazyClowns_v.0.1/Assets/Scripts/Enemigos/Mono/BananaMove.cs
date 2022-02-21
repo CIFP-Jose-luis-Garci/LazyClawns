@@ -23,7 +23,7 @@ public class BananaMove : MonoBehaviour
     void Update()
     {
         Move();
-        Invoke("Destruir", 5f);
+        Invoke("Destruir", 10f);
     }
     void Move()
     {

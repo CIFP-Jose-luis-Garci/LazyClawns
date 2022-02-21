@@ -8,6 +8,7 @@ TagManager:
   - AttackPoint
   - Plataforma
   - Suelo
+  - Boss
   layers:
   - Default
   - TransparentFX
