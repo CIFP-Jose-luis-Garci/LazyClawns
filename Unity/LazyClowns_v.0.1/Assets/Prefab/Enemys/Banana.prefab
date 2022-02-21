@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3625164677324829711}
   - component: {fileID: 3169056266662093078}
-  - component: {fileID: 7311822047147029767}
   - component: {fileID: 2362149063855257456}
   m_Layer: 0
   m_Name: Square
@@ -84,32 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7311822047147029767
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4195013876456117016}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5751374}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.71999997, y: 1.1502751}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.71999997, y: 1.1502752}
-  m_EdgeRadius: 0
 --- !u!95 &2362149063855257456
 Animator:
   serializedVersion: 3
@@ -140,6 +113,7 @@ GameObject:
   - component: {fileID: 1808955197183957605}
   - component: {fileID: 5792961561217467808}
   - component: {fileID: 5111373045475981101}
+  - component: {fileID: 4346357547416547004}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -195,3 +169,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4899693150e078848bf17627b25b3001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  banana: {fileID: 5850647237889003955}
+--- !u!61 &4346357547416547004
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5850647237889003955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5743864}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.1183797}
+  m_EdgeRadius: 0

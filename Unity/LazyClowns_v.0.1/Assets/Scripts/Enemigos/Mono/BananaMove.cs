@@ -7,11 +7,16 @@ public class BananaMove : MonoBehaviour
 
     Animator animator;
     float speed;
+    bool move;
+    private PlayerMove playerHealth;
+    private int damage;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
-        speed = 5f;
+        playerHealth = GameObject.Find("Player").GetComponent<PlayerMove>();
+        speed = 2f;
+        damage = 10;
     }
 
     // Update is called once per frame
@@ -21,9 +26,20 @@ public class BananaMove : MonoBehaviour
     }
     void Move()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("BananaWalk"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("BananaWalk") )
         {
-            transform.position = new Vector3(transform.position.x + speed, transform.position.y);
+            transform.Translate(Vector3.left*speed*Time.deltaTime);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            playerHealth.TakeDamage(damage);
+            Destroy(gameObject);
+        }
+           
+
     }
 }

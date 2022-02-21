@@ -14,8 +14,10 @@ public class LanzarPlatano : MonoBehaviour
 
     void Instanciar()
     {
-        Instantiate(piel, transPiel);
-        Instantiate(banana, transBanana);
+        Vector3 instPos = transBanana.TransformPoint(Vector3.zero);
+        
+        Instantiate(piel, transPiel.TransformPoint(Vector3.zero), Quaternion.identity);
+        Instantiate(banana, transBanana.TransformPoint(Vector3.zero), Quaternion.identity);
     }
 
 

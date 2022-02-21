@@ -15,6 +15,7 @@ public class Controller : MonoBehaviour
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        player  = GameObject.Find("Player").GetComponent<Transform>();
         rango = 30f;
     }
 

@@ -119,6 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5117937124610543824}
   - component: {fileID: 8884601220977543700}
+  - component: {fileID: 7341813967631656172}
   m_Layer: 0
   m_Name: PielBanana
   m_TagString: Untagged
@@ -161,4 +162,16 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &7341813967631656172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086664680218016223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7702db92430d5fc4eb1b3463b84da365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
