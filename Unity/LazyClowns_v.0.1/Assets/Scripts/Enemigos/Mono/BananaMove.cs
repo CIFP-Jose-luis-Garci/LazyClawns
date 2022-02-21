@@ -23,6 +23,7 @@ public class BananaMove : MonoBehaviour
     void Update()
     {
         Move();
+        Invoke("Destruir", 5f);
     }
     void Move()
     {
@@ -41,5 +42,9 @@ public class BananaMove : MonoBehaviour
         }
            
 
+    }
+    void Destruir()
+    {
+        Destroy(gameObject);
     }
 }

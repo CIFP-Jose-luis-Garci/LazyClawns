@@ -16,7 +16,7 @@ public class Controller : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         player  = GameObject.Find("Player").GetComponent<Transform>();
-        rango = 30f;
+        rango = 10f;
     }
 
     // Update is called once per frame
