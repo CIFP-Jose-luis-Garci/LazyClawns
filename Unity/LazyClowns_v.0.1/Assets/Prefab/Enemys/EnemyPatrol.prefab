@@ -185,7 +185,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &4111363099105638034
 GameObject:
   m_ObjectHideFlags: 0
