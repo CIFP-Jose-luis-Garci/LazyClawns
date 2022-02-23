@@ -262,12 +262,50 @@
                 },
                 {
                     "name": "",
+                    "id": "25de506e-16d9-4c9f-9d84-ee253a4f9bb0",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c61bdae7-48fd-499c-8d06-5433c6eef648",
                     "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Inventario",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Cargar",
+            "id": "b72c61f6-be8e-4747-85c8-ea2a105d7f97",
+            "actions": [
+                {
+                    "name": "Pantalla",
+                    "type": "Button",
+                    "id": "ad8d6ea7-ef60-45f5-85c1-4541a25cc2b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "867aad56-a3b1-4bd6-9dca-b685bb398738",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pantalla",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

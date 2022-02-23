@@ -275,12 +275,50 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""25de506e-16d9-4c9f-9d84-ee253a4f9bb0"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""c61bdae7-48fd-499c-8d06-5433c6eef648"",
                     ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Inventario"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Cargar"",
+            ""id"": ""b72c61f6-be8e-4747-85c8-ea2a105d7f97"",
+            ""actions"": [
+                {
+                    ""name"": ""Pantalla"",
+                    ""type"": ""Button"",
+                    ""id"": ""ad8d6ea7-ef60-45f5-85c1-4541a25cc2b2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""867aad56-a3b1-4bd6-9dca-b685bb398738"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pantalla"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -304,6 +342,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
         m_Pausa = asset.FindActionMap("Pausa", throwIfNotFound: true);
         m_Pausa_Pause = m_Pausa.FindAction("Pause", throwIfNotFound: true);
         m_Pausa_Inventario = m_Pausa.FindAction("Inventario", throwIfNotFound: true);
+        // Cargar
+        m_Cargar = asset.FindActionMap("Cargar", throwIfNotFound: true);
+        m_Cargar_Pantalla = m_Cargar.FindAction("Pantalla", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -496,6 +537,39 @@ public class @InputSystem : IInputActionCollection, IDisposable
         }
     }
     public PausaActions @Pausa => new PausaActions(this);
+
+    // Cargar
+    private readonly InputActionMap m_Cargar;
+    private ICargarActions m_CargarActionsCallbackInterface;
+    private readonly InputAction m_Cargar_Pantalla;
+    public struct CargarActions
+    {
+        private @InputSystem m_Wrapper;
+        public CargarActions(@InputSystem wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Pantalla => m_Wrapper.m_Cargar_Pantalla;
+        public InputActionMap Get() { return m_Wrapper.m_Cargar; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CargarActions set) { return set.Get(); }
+        public void SetCallbacks(ICargarActions instance)
+        {
+            if (m_Wrapper.m_CargarActionsCallbackInterface != null)
+            {
+                @Pantalla.started -= m_Wrapper.m_CargarActionsCallbackInterface.OnPantalla;
+                @Pantalla.performed -= m_Wrapper.m_CargarActionsCallbackInterface.OnPantalla;
+                @Pantalla.canceled -= m_Wrapper.m_CargarActionsCallbackInterface.OnPantalla;
+            }
+            m_Wrapper.m_CargarActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Pantalla.started += instance.OnPantalla;
+                @Pantalla.performed += instance.OnPantalla;
+                @Pantalla.canceled += instance.OnPantalla;
+            }
+        }
+    }
+    public CargarActions @Cargar => new CargarActions(this);
     public interface IMovimientoActions
     {
         void OnAndar(InputAction.CallbackContext context);
@@ -513,5 +587,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
     {
         void OnPause(InputAction.CallbackContext context);
         void OnInventario(InputAction.CallbackContext context);
+    }
+    public interface ICargarActions
+    {
+        void OnPantalla(InputAction.CallbackContext context);
     }
 }
