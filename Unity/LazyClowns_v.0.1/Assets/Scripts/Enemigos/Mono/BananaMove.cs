@@ -29,7 +29,7 @@ public class BananaMove : MonoBehaviour
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("BananaWalk") )
         {
-            transform.Translate(Vector3.left*speed*Time.deltaTime);
+            transform.Translate(Vector3.right*speed*Time.deltaTime);
         }
     }
 
