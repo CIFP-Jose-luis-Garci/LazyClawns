@@ -65,7 +65,7 @@ public class EnemyController : MonoBehaviour
 
         //GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-        Invoke("Destruir", 0.75f);
+        Invoke("Destruir", 0.7f);
     }
     private void Destruir()
     {
