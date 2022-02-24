@@ -107,7 +107,7 @@ public class PlayerMove : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         speed = 1;
         maxSpeed = 4f;
-        jumpForce = 2f;
+        jumpForce = 4f;
         distanciaSuelo = 0.25f;
         animator.SetBool("Muerto", false);
 
