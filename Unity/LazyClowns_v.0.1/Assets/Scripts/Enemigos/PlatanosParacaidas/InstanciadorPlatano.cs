@@ -39,7 +39,7 @@ public class InstanciadorPlatano : MonoBehaviour
             
             
 
-            randomX = Random.Range(-110f, -140f);
+            randomX = Random.Range(-172f, -192f);
             
 
 
