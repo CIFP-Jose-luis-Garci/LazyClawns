@@ -9,6 +9,7 @@ TagManager:
   - Plataforma
   - Suelo
   - Boss
+  - Monkey
   layers:
   - Default
   - TransparentFX

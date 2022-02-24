@@ -269,7 +269,7 @@ public class PlayerMove : MonoBehaviour
 
     void muerteCaida()
     {
-        if(transform.position.y <= -5)
+        if(transform.position.y <= -10)
         {
             animator.SetTrigger("Muerte");
             VariablesPublicas.alive = false;

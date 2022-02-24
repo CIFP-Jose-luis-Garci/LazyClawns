@@ -14,7 +14,7 @@ public class Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponentInChildren<Animator>();
+        animator = GetComponent<Animator>();
         player  = GameObject.Find("Player").GetComponent<Transform>();
         rango = 10f;
     }

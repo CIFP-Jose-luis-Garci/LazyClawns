@@ -25,7 +25,7 @@ public class MeeleIntanciador : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             collision.GetComponent<EnemyController>().TakeDamage(damage);
 
