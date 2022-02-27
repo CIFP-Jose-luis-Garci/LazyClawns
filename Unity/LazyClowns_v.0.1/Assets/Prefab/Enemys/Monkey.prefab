@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6805365713956963915}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Enemy
+  m_TagString: Monkey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 3235392562439212301}
   m_Layer: 0
   m_Name: Banana
-  m_TagString: Enemy
+  m_TagString: Monkey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 3235392562694493354}
   m_Layer: 0
   m_Name: Monkey
-  m_TagString: Enemy
+  m_TagString: Monkey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 3235392562975866065}
   m_Layer: 0
   m_Name: Piel de Banana
-  m_TagString: Enemy
+  m_TagString: Monkey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

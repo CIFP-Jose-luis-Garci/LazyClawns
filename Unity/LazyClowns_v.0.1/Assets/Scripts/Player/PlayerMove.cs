@@ -15,7 +15,7 @@ public class PlayerMove : MonoBehaviour
     
 
     public float speed;
-    Rigidbody2D rb2D;
+    [SerializeField]Rigidbody2D rb2D;
     Animator animator;
 
     //SEELCCIÓN DE SKIN
@@ -104,7 +104,7 @@ public class PlayerMove : MonoBehaviour
         UpdateSkins("sinRopa");
         menuSkinImage.sprite = imagesSkin[0];
 
-        rb2D = GetComponent<Rigidbody2D>();
+        
         speed = 1;
         maxSpeed = 4f;
         jumpForce = 4f;
