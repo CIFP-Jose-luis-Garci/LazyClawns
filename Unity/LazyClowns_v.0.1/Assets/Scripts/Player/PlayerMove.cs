@@ -330,25 +330,25 @@ public class PlayerMove : MonoBehaviour
             {
                 skinSelected = 0;
                 menuSkinImage.sprite = imagesSkin[0];
-               // Instantiate(humo,transform.position, Quaternion.identity);
+                Instantiate(humo,transform.position, Quaternion.identity);
             }
             else if (selecSkinAxis.x == 1 && skinSelected != 1)
             {
                 skinSelected = 1;
                 menuSkinImage.sprite = imagesSkin[1];
-               // Instantiate(humo, transform.position, Quaternion.identity);
+                Instantiate(humo, transform.position, Quaternion.identity);
             }
             else if (selecSkinAxis.y == -1 && skinSelected != 2)
             {
                 skinSelected = 2;
                 menuSkinImage.sprite = imagesSkin[2];
-                //Instantiate(humo, transform.position, Quaternion.identity);
+                Instantiate(humo, transform.position, Quaternion.identity);
             }
             else if (selecSkinAxis.x == -1 && skinSelected != 3)
             {
                 skinSelected = 3;
                 menuSkinImage.sprite = imagesSkin[3];
-                //Instantiate(humo, transform.position, Quaternion.identity);
+                Instantiate(humo, transform.position, Quaternion.identity);
             }
         }
     }
