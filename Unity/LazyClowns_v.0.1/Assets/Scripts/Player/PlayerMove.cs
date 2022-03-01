@@ -13,7 +13,8 @@ public class PlayerMove : MonoBehaviour
     bool correr;
     bool saltar;
     
-    [SerializeField] GameObject humo; 
+    [SerializeField] ParticleSystem humo;
+    [SerializeField] Transform puntoHumo;
 
     public float speed;
     [SerializeField]Rigidbody2D rb2D;
@@ -319,7 +320,8 @@ public class PlayerMove : MonoBehaviour
             //Ocultamos el menú
             menuSkinParent.SetActive(false);
             //Aquí deberíamos poner la bomba de humo
-            
+            Instantiate(humo, puntoHumo.transform.position, Quaternion.identity);
+
         }
 
         //Asignamos el personaje según el valor del eje
@@ -330,25 +332,26 @@ public class PlayerMove : MonoBehaviour
             {
                 skinSelected = 0;
                 menuSkinImage.sprite = imagesSkin[0];
-                Instantiate(humo,transform.position, Quaternion.identity);
+                
+                
             }
             else if (selecSkinAxis.x == 1 && skinSelected != 1)
             {
                 skinSelected = 1;
                 menuSkinImage.sprite = imagesSkin[1];
-                Instantiate(humo, transform.position, Quaternion.identity);
+                
             }
             else if (selecSkinAxis.y == -1 && skinSelected != 2)
             {
                 skinSelected = 2;
                 menuSkinImage.sprite = imagesSkin[2];
-                Instantiate(humo, transform.position, Quaternion.identity);
+                
             }
             else if (selecSkinAxis.x == -1 && skinSelected != 3)
             {
                 skinSelected = 3;
                 menuSkinImage.sprite = imagesSkin[3];
-                Instantiate(humo, transform.position, Quaternion.identity);
+                
             }
         }
     }
