@@ -14,7 +14,7 @@ public class PlayerMove : MonoBehaviour
     bool saltar;
     
     [SerializeField] ParticleSystem humo;
-    [SerializeField] Transform puntoHumo;
+    
 
     public float speed;
     [SerializeField]Rigidbody2D rb2D;
@@ -320,7 +320,8 @@ public class PlayerMove : MonoBehaviour
             //Ocultamos el menú
             menuSkinParent.SetActive(false);
             //Aquí deberíamos poner la bomba de humo
-            Instantiate(humo, puntoHumo.transform.position, Quaternion.identity);
+            humo.Play();
+            print("humo");
 
         }
 
