@@ -23,7 +23,7 @@ public class EnemyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         boxCollider2D = GetComponent<BoxCollider2D>();
-        slider.value = currentHealth;
+        slider.value = 50;
 
     }
     private void Update()
@@ -57,7 +57,7 @@ public class EnemyController : MonoBehaviour
         else
         {
             currentHealth -= damage;
-            
+                
         }
     }
 
