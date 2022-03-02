@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.28310168, g: 0.95360047, b: 0.9869718, a: 1}
+  m_IndirectSpecularColor: {r: 0.45632946, g: 0.8420589, b: 0.9700903, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -437,30 +437,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &268164854 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5361465541993264675, guid: f1be19db10289744498b0c7a78f09c8b, type: 3}
-  m_PrefabInstance: {fileID: 1833509504}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &268164856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 268164854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a6b471863869a429705110b1df246d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  instanciador1: {fileID: 1571066530}
-  instanciador2: {fileID: 773739738}
-  instanciador3: {fileID: 1821691016}
-  instanciador4: {fileID: 1354423380}
-  instanciador5: {fileID: 264506375}
-  pinchoSuelo: {fileID: 1623040777360502531, guid: 05165037fe982fa48898f50e17804f25, type: 3}
-  pinchoPlat: {fileID: 3446435897634822907, guid: 52d61906ee12e304e9940089f2823fc8, type: 3}
 --- !u!1 &288252997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,7 +4581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3782158567624065248, guid: b189be3d8304bc74e91eb40794e46e36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -176.7
+      value: 29.7
       objectReference: {fileID: 0}
     - target: {fileID: 3782158567624065248, guid: b189be3d8304bc74e91eb40794e46e36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4668,10 +4644,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4080753960363913604, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4111363099105638037, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.5
@@ -4723,10 +4695,6 @@ PrefabInstance:
     - target: {fileID: 4111363100521723137, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4111363100521723150, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
-      propertyPath: speed
-      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4111363100521723151, guid: bf0c1bb254fe2fc4589124caf0dc82fc, type: 3}
       propertyPath: m_Name

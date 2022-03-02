@@ -19,15 +19,15 @@ public class Shuriken : MonoBehaviour
     {
         if (lookingRight)
         {
-            transform.Translate(Vector2.right * 9f * Time.deltaTime);
+            transform.Translate(Vector2.right * 20f * Time.deltaTime);
         }
         else
         {
-            transform.Translate(Vector2.right * 9f * Time.deltaTime);
+            transform.Translate(Vector2.right * 20f * Time.deltaTime);
             gameObject.transform.rotation = new Quaternion (0f, 180f, 0f,0f);
             
         }
-        Invoke("Eliminar", 10F);
+        Invoke("Eliminar", 5F);
        
     }
     void Eliminar()
@@ -37,18 +37,18 @@ public class Shuriken : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D enemy)
     {
-        if (enemy.name =="EnemyPatrol")
+        if (enemy.gameObject.tag =="Enemy")
         {
             print("DADO");
             enemy.GetComponent<EnemyController>().TakeDamage(damageDistancia);
             Destroy(gameObject);
         }
-        else if(enemy.name == "Monkey")
+        else if(enemy.gameObject.tag == "Monkey")
         {
             enemy.GetComponent<Controller>().TakeDamage(damageDistancia);
             Destroy(gameObject);
-            print("DADO MONO");
         }
+    
 
     }
 

@@ -13,9 +13,11 @@ public class PlayerMove : MonoBehaviour
     bool correr;
     bool saltar;
     
+    [SerializeField] ParticleSystem humo;
+    
 
     public float speed;
-    Rigidbody2D rb2D;
+    [SerializeField]Rigidbody2D rb2D;
     Animator animator;
 
     //SEELCCIÓN DE SKIN
@@ -104,10 +106,10 @@ public class PlayerMove : MonoBehaviour
         UpdateSkins("sinRopa");
         menuSkinImage.sprite = imagesSkin[0];
 
-        rb2D = GetComponent<Rigidbody2D>();
+        
         speed = 1;
         maxSpeed = 4f;
-        jumpForce = 2f;
+        jumpForce = 40f;
         distanciaSuelo = 0.25f;
         animator.SetBool("Muerto", false);
 
@@ -208,7 +210,7 @@ public class PlayerMove : MonoBehaviour
         if (correr && Mathf.Abs(speed) > 0)
         {
             animator.SetBool("Run", true);
-            maxSpeed = 6.5f;
+            maxSpeed = 9f;
             
         }
         else 
@@ -226,8 +228,12 @@ public class PlayerMove : MonoBehaviour
             animator.SetTrigger("Damage");
         }
        
-        
-
+    }
+    public void CurarVida()
+    {
+        int vidaCurrar;
+        vidaCurrar = VariablesPublicas.saludMax - VariablesPublicas.saludCurrent;
+        VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent + vidaCurrar;
     }
     void Muerte()
     {
@@ -269,7 +275,7 @@ public class PlayerMove : MonoBehaviour
 
     void muerteCaida()
     {
-        if(transform.position.y <= -5)
+        if(transform.position.y <= -10)
         {
             animator.SetTrigger("Muerte");
             VariablesPublicas.alive = false;
@@ -318,7 +324,9 @@ public class PlayerMove : MonoBehaviour
             //Ocultamos el menú
             menuSkinParent.SetActive(false);
             //Aquí deberíamos poner la bomba de humo
-            
+            humo.Play();
+            print("humo");
+
         }
 
         //Asignamos el personaje según el valor del eje
@@ -329,25 +337,26 @@ public class PlayerMove : MonoBehaviour
             {
                 skinSelected = 0;
                 menuSkinImage.sprite = imagesSkin[0];
-
+                
+                
             }
             else if (selecSkinAxis.x == 1 && skinSelected != 1)
             {
                 skinSelected = 1;
                 menuSkinImage.sprite = imagesSkin[1];
-
+                
             }
             else if (selecSkinAxis.y == -1 && skinSelected != 2)
             {
                 skinSelected = 2;
                 menuSkinImage.sprite = imagesSkin[2];
-
+                
             }
             else if (selecSkinAxis.x == -1 && skinSelected != 3)
             {
                 skinSelected = 3;
                 menuSkinImage.sprite = imagesSkin[3];
-
+                
             }
         }
     }

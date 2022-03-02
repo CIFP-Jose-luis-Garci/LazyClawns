@@ -39,7 +39,7 @@ public class InstanciadroPlatano2 : MonoBehaviour
 
 
 
-            randomX = Random.Range(-273f, -300);
+            randomX = Random.Range(-240f, -290);
 
 
 
