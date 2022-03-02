@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
-   
 
-    private int currentHealth = 100;
-    
-    
-    
+
+    private int currentHealth;
+    private int maxHealth = 100;
+
+    //Barra de vida
+    [SerializeField] GameObject barraUI;
+    [SerializeField] Slider slider;
 
     private Animator animator;
 
@@ -18,15 +21,15 @@ public class EnemyController : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        currentHealth = 100;
+        currentHealth = maxHealth;
         boxCollider2D = GetComponent<BoxCollider2D>();
-        
-     
+        slider.value = currentHealth;
+
     }
     private void Update()
     {
-
         print(currentHealth);
+        slider.value = currentHealth;
     }
 
     //Recibir daño
@@ -41,6 +44,7 @@ public class EnemyController : MonoBehaviour
             if(GetComponentInParent<EnemyPatrol>() != null)
             {
                 GetComponentInParent<EnemyPatrol>().enabled = false;
+                
             }
             if(GetComponent<AttackMelee>() != null)
             {
@@ -53,7 +57,7 @@ public class EnemyController : MonoBehaviour
         else
         {
             currentHealth -= damage;
-
+            
         }
     }
 
@@ -65,6 +69,7 @@ public class EnemyController : MonoBehaviour
 
         //GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        GetComponentInChildren<Canvas>().enabled = false;
         Invoke("Destruir", 0.7f);
     }
     private void Destruir()
