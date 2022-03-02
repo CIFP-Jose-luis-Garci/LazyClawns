@@ -109,7 +109,7 @@ public class PlayerMove : MonoBehaviour
         
         speed = 1;
         maxSpeed = 4f;
-        jumpForce = 20f;
+        jumpForce = 40f;
         distanciaSuelo = 0.25f;
         animator.SetBool("Muerto", false);
 
