@@ -2022,7 +2022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3782158567624065248, guid: b189be3d8304bc74e91eb40794e46e36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -413.5
+      value: -361.1
       objectReference: {fileID: 0}
     - target: {fileID: 3782158567624065248, guid: b189be3d8304bc74e91eb40794e46e36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3288,6 +3288,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 858787231}
     m_Modifications:
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3235392562055411324, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
       propertyPath: m_TagString
       value: Monkey
@@ -17453,6 +17465,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 858787231}
     m_Modifications:
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3235392562055411324, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
       propertyPath: m_TagString
       value: Monkey
@@ -17911,6 +17935,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 858787231}
     m_Modifications:
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3235392562055411324, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
       propertyPath: m_TagString
       value: Monkey
@@ -19175,6 +19211,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 858787231}
     m_Modifications:
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972193426258096198, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3235392562055411326, guid: 3cd417a91b34acc438adbb28b266141a, type: 3}
       propertyPath: m_LocalScale.x
       value: -1.7463

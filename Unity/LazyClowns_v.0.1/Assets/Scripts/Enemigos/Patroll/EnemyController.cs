@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
     private int maxHealth = 100;
 
     //Barra de vida
-    [SerializeField] GameObject barraUI;
+    
     [SerializeField] Slider slider;
 
     private Animator animator;
@@ -23,7 +23,7 @@ public class EnemyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         boxCollider2D = GetComponent<BoxCollider2D>();
-        slider.value = 50;
+        slider.value = currentHealth;
 
     }
     private void Update()

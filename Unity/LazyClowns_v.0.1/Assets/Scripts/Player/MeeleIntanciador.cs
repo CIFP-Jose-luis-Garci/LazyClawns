@@ -29,6 +29,10 @@ public class MeeleIntanciador : MonoBehaviour
         {
             collision.GetComponent<EnemyController>().TakeDamage(damage);
 
+        }if (collision.gameObject.tag == "Monkey")
+        {
+            collision.GetComponent<Controller>().TakeDamage(damage);
+
         }
         Destroy(gameObject);
 

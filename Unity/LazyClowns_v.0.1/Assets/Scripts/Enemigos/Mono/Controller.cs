@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Controller : MonoBehaviour
 {
     [SerializeField] Transform player;
     float rango;
     bool atacando = false;
 
-    int vida = 150;
+    int vida = 75;
+    [SerializeField] Slider slider;
+
 
     Animator animator;
     // Start is called before the first frame update
@@ -17,12 +19,14 @@ public class Controller : MonoBehaviour
         animator = GetComponent<Animator>();
         player  = GameObject.Find("Player").GetComponent<Transform>();
         rango = 10f;
+        slider.value = vida;
     }
 
     // Update is called once per frame
     void Update()
     {
         Detectar();
+        slider.value = vida;
     }
 
     void Detectar()
@@ -60,6 +64,7 @@ public class Controller : MonoBehaviour
     {
         animator.SetTrigger("die");
         this.enabled = false;
+        GetComponentInChildren<Canvas>().enabled = false;
         Invoke("Destruir", 0.5f);
     }
     private void Destruir()
