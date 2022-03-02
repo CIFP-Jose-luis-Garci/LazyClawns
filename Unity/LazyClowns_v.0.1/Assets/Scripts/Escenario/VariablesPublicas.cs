@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VariablesPublicas : MonoBehaviour
 {
-    public int saludMax;
+    public static int saludMax;
     public static int saludCurrent;
     public static bool alive;
     public int vidas ;

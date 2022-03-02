@@ -210,7 +210,7 @@ public class PlayerMove : MonoBehaviour
         if (correr && Mathf.Abs(speed) > 0)
         {
             animator.SetBool("Run", true);
-            maxSpeed = 6.5f;
+            maxSpeed = 9f;
             
         }
         else 
@@ -228,8 +228,12 @@ public class PlayerMove : MonoBehaviour
             animator.SetTrigger("Damage");
         }
        
-        
-
+    }
+    public void CurarVida()
+    {
+        int vidaCurrar;
+        vidaCurrar = VariablesPublicas.saludMax - VariablesPublicas.saludCurrent;
+        VariablesPublicas.saludCurrent = VariablesPublicas.saludCurrent + vidaCurrar;
     }
     void Muerte()
     {
