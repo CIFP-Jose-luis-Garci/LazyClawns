@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1
-  range: 0.65
+  range: 0.46
   damage: 30
   colliderDistance: -5.21
   boxCollider: {fileID: 4080753960363913625}
@@ -164,7 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b01a9ed11826f374d8b9fa128afc159a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!50 &4080753960363913604
 Rigidbody2D:
   serializedVersion: 4
