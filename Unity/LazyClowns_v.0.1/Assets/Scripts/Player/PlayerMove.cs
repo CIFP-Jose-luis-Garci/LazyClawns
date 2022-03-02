@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour
     
 
     public float speed;
-    [SerializeField]Rigidbody2D rb2D;
+    [SerializeField] Rigidbody2D rb2D;
     Animator animator;
 
     //SEELCCIÓN DE SKIN
@@ -25,7 +25,7 @@ public class PlayerMove : MonoBehaviour
     bool selectingSkin = false;
     Vector2 selecSkinAxis;
     //Skin seleccionado: 0=> Sin ropa / 1=> Azul  / 2 => Amarillo/ 3 => Morado
-    int skinSelected = 0;
+    public int skinSelected = 0;
     int currentSkin; //Para diferenciar la actual de la nueva
 
     //Sprite con el menú de selección y array con las imágenes
@@ -325,7 +325,7 @@ public class PlayerMove : MonoBehaviour
             menuSkinParent.SetActive(false);
             //Aquí deberíamos poner la bomba de humo
             humo.Play();
-            print("humo");
+            
 
         }
 
@@ -337,8 +337,7 @@ public class PlayerMove : MonoBehaviour
             {
                 skinSelected = 0;
                 menuSkinImage.sprite = imagesSkin[0];
-                
-                
+              
             }
             else if (selecSkinAxis.x == 1 && skinSelected != 1)
             {
