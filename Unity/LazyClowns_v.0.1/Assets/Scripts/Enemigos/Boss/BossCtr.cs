@@ -5,9 +5,9 @@ using UnityEngine;
 public class BossCtr : MonoBehaviour
 
 {
-    public int maxHealth = 10000;
+     int maxHealth = 10000;
 
-    private int currentHealth = 100;
+    private int currentHealth ;
 
 
 
@@ -19,7 +19,7 @@ BoxCollider2D boxCollider2D;
 private void Start()
 {
     animator = GetComponent<Animator>();
-    currentHealth = 100;
+    currentHealth = maxHealth;
     boxCollider2D = GetComponent<BoxCollider2D>();
 
 
@@ -33,7 +33,7 @@ private void Update()
 //Recibir daño
 public void TakeDamage(int damage)
 {
-    animator.SetTrigger("hit");
+    animator.SetTrigger("Daño");
 
 
     if (currentHealth <= 0)
@@ -62,7 +62,7 @@ public void TakeDamage(int damage)
 //Muerte
 private void EnemyDie()
 {
-    animator.SetBool("die", true);
+    animator.SetBool("Muerto", true);
 
     //GetComponent<Collider2D>().enabled = false;
     this.enabled = false;

@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
-    [SerializeField] Transform instanciador1;
-    [SerializeField] Transform instanciador2;
-    [SerializeField] Transform instanciador3;
-    [SerializeField] Transform instanciador4;
-    [SerializeField] Transform instanciador5;
-    [SerializeField] GameObject pinchoSuelo;
-    [SerializeField] GameObject pinchoPlat;
+    
+    [SerializeField] Transform[] instanciadores;
+    [SerializeField] GameObject[] pinchos;
+    Animator animator;
+    
+    
 
     // Update is called once per frame
     void Start()
     {
-        Vector3 instPos1 = instanciador1.TransformPoint(Vector3.zero);
-        Vector3 instPos2 = instanciador2.TransformPoint(Vector3.zero);
-        Vector3 instPos3 = instanciador3.TransformPoint(Vector3.zero);
-        Vector3 instPos4 = instanciador4.TransformPoint(Vector3.zero);
-        Vector3 instPos5 = instanciador5.TransformPoint(Vector3.zero);
+        animator = gameObject.GetComponent<Animator>();
         StartCoroutine("pinchosInstan");
     }
 
@@ -27,27 +22,28 @@ public class BossAttack : MonoBehaviour
     {
         while (true)
         {
-            int numA = Random.Range(0, 4);
-            if (numA == 0)
+            int numA = Random.Range(0, 3);
+            if (instanciadores[numA].name == "Pinchos1")
             {
-                Instantiate(pinchoSuelo, instanciador1.TransformPoint(Vector3.zero), Quaternion.identity);
+                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
+                animator.SetTrigger("meleeAttack");
             }  
-            if (numA == 1)
+            if (instanciadores[numA].name == "Pinchos2")
             {
-                Instantiate(pinchoPlat, instanciador2.TransformPoint(Vector3.zero), Quaternion.identity);
+                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
+                animator.SetTrigger("meleeAttack");
             }  
-            if (numA == 2)
+            if (instanciadores[numA].name == "Pinchos3")
             {
-                Instantiate(pinchoPlat, instanciador3.TransformPoint(Vector3.zero), Quaternion.identity);
+                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
+                animator.SetTrigger("meleeAttack");
             }  
-            if (numA == 3)
+            if (instanciadores[numA].name == "Pinchos4")
             {
-                Instantiate(pinchoPlat, instanciador4.TransformPoint(Vector3.zero), Quaternion.identity);
+                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
+                animator.SetTrigger("meleeAttack");
             }  
-            if (numA == 4)
-            {
-                Instantiate(pinchoPlat, instanciador5.TransformPoint(Vector3.zero), Quaternion.identity);
-            }
+           
            
             yield return new WaitForSeconds(1);
         }
