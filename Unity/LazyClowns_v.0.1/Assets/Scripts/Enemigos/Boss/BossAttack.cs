@@ -5,9 +5,10 @@ using UnityEngine;
 public class BossAttack : MonoBehaviour
 {
     
-    [SerializeField] Transform[] instanciadores;
-    [SerializeField] GameObject[] pinchos;
+    [SerializeField] GameObject[] animaciones;
+    
     Animator animator;
+    Animator pinchosAnime;
     
     
 
@@ -22,30 +23,12 @@ public class BossAttack : MonoBehaviour
     {
         while (true)
         {
-            int numA = Random.Range(0, 3);
-            if (instanciadores[numA].name == "Pinchos1")
-            {
-                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
-                animator.SetTrigger("meleeAttack");
-            }  
-            if (instanciadores[numA].name == "Pinchos2")
-            {
-                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
-                animator.SetTrigger("meleeAttack");
-            }  
-            if (instanciadores[numA].name == "Pinchos3")
-            {
-                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
-                animator.SetTrigger("meleeAttack");
-            }  
-            if (instanciadores[numA].name == "Pinchos4")
-            {
-                Instantiate(pinchos[numA], instanciadores[numA].TransformPoint(Vector3.zero), Quaternion.identity);
-                animator.SetTrigger("meleeAttack");
-            }  
-           
-           
-            yield return new WaitForSeconds(1);
+            int numA = Random.Range(0, 4);
+            pinchosAnime = animaciones[numA].GetComponent<Animator>();
+            pinchosAnime.SetTrigger("Ataque");
+
+            animator.SetTrigger("meleeAttack");
+            yield return new WaitForSeconds(6);
         }
 
        
