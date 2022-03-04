@@ -8,8 +8,11 @@ public class AtaqueDsitancia : MonoBehaviour
 
     [SerializeField] GameObject shotPoint;
     [SerializeField] GameObject [] arma;
+    [SerializeField] GameObject bolaFuego, bolaRayo, bolaAgua;
+    GameObject objeto;
     private Animator animator;
-
+    private PlayerMove spriteRender;
+    int numSkin;
     InputSystem inputCr;
 
     bool ataque;
@@ -25,24 +28,42 @@ public class AtaqueDsitancia : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRender = GameObject.Find("Player").GetComponent<PlayerMove>();
+        numSkin = spriteRender.skinSelected;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        
+        numSkin = spriteRender.skinSelected;
 
     }
 
     void Instanciador()
     {
         if (PauseManager.paused || PauseManager.inventario)
-            return; 
-
-        int numA = Random.Range(0, arma.Length);
+            return;
         
-        GameObject Shuriken = Instantiate(arma[numA], shotPoint.transform.position,shotPoint.transform.rotation) as GameObject;
+        if (numSkin == 0)
+        {
+            int numA = Random.Range(0, arma.Length);
+            objeto = arma[numA];
+        }
+        if (numSkin == 1)
+        {
+            objeto = bolaAgua;
+        }
+        if (numSkin == 2)
+        {
+            objeto = bolaFuego;
+        }
+        if (numSkin == 3)
+        {
+            objeto= bolaRayo;
+        }
+
+        GameObject Shuriken = Instantiate(objeto, shotPoint.transform.position,shotPoint.transform.rotation) as GameObject;
     }
 
     void AtaqueDistanciaInicio()
