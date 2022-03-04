@@ -34,7 +34,11 @@ public class Stalactita : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "DisparoPlayer")
+        {
             animator.SetTrigger("Caer");
+            
+        }
+            
         else if(other.gameObject.tag =="Boss")
             other.GetComponent<BossCtr>().TakeDamage(daño);
     }
