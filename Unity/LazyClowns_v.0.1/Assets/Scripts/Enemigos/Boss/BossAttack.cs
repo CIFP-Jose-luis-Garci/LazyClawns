@@ -9,14 +9,15 @@ public class BossAttack : MonoBehaviour
     
     Animator animator;
     Animator pinchosAnime;
-    
-    
+
+    public int intervalo;
 
     // Update is called once per frame
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
         StartCoroutine("pinchosInstan");
+        intervalo = 6;
     }
 
     IEnumerator pinchosInstan()
@@ -28,7 +29,7 @@ public class BossAttack : MonoBehaviour
             pinchosAnime.SetTrigger("Ataque");
 
             animator.SetTrigger("meleeAttack");
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(intervalo);
         }
 
        

@@ -10,6 +10,9 @@ TagManager:
   - Suelo
   - Boss
   - Monkey
+  - DisparoPlayer
+  - Estalactita
+  - Curafinal
   layers:
   - Default
   - TransparentFX
