@@ -28,7 +28,7 @@ public class BossAttack : MonoBehaviour
             pinchosAnime.SetTrigger("Ataque");
 
             animator.SetTrigger("meleeAttack");
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(1);
         }
 
        
