@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2696622347867536537}
   - component: {fileID: 3049065280577710377}
   - component: {fileID: 1519778525752226821}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ColliderPincho
   m_TagString: Untagged
   m_Icon: {fileID: 0}

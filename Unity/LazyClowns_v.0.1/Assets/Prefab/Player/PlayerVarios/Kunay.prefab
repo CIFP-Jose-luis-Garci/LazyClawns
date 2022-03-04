@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 3055016705633349941}
   m_Layer: 0
   m_Name: Kunay
-  m_TagString: Untagged
+  m_TagString: DisparoPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 5905875382175712470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.104102455, y: 0.104102455, z: 0.104102455}
+  m_LocalScale: {x: 0.21317059, y: 0.21317059, z: 0.21317059}
   m_Children:
   - {fileID: 6406919162771207965}
   m_Father: {fileID: 0}
@@ -154,3 +154,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistancia: 30
+  lookingRight: 0

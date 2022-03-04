@@ -23,7 +23,7 @@ public class BossAttack : MonoBehaviour
     {
         while (true)
         {
-            int numA = Random.Range(0, 4);
+            int numA = Random.Range(0, 5);
             pinchosAnime = animaciones[numA].GetComponent<Animator>();
             pinchosAnime.SetTrigger("Ataque");
 

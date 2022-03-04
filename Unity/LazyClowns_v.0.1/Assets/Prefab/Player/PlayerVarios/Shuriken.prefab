@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8203201642470203174}
   m_Layer: 0
   m_Name: Shuriken
-  m_TagString: Untagged
+  m_TagString: DisparoPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1427076031094290869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08867081, y: 0.08867081, z: 0.08867081}
+  m_LocalScale: {x: 0.2131706, y: 0.2131706, z: 0}
   m_Children:
   - {fileID: 6847238213124241958}
   m_Father: {fileID: 0}
@@ -72,6 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDistancia: 30
+  lookingRight: 0
 --- !u!1 &2795881770452465173
 GameObject:
   m_ObjectHideFlags: 0
