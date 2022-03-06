@@ -25,7 +25,7 @@ public class PlayerMove : MonoBehaviour
     bool selectingSkin = false;
     Vector2 selecSkinAxis;
     //Skin seleccionado: 0=> Sin ropa / 1=> Azul  / 2 => Amarillo/ 3 => Morado
-    public int skinSelected = 0;
+    static public int skinSelected = 0;
     int currentSkin; //Para diferenciar la actual de la nueva
 
     //Sprite con el menú de selección y array con las imágenes

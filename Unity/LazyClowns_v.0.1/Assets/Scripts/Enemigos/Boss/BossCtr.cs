@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossCtr : MonoBehaviour
 
@@ -72,11 +73,13 @@ private void EnemyDie()
     //GetComponent<Collider2D>().enabled = false;
     this.enabled = false;
     Invoke("Destruir", 4f);
+   
 }
 private void Destruir()
 {
     Destroy(gameObject);
-}
+        SceneManager.LoadScene(8);
+    }
 
     
 

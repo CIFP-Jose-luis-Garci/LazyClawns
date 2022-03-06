@@ -28,15 +28,14 @@ public class AtaqueDsitancia : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        spriteRender = GameObject.Find("Player").GetComponent<PlayerMove>();
-        numSkin = spriteRender.skinSelected;
+        numSkin = PlayerMove.skinSelected;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        numSkin = spriteRender.skinSelected;
+        numSkin = PlayerMove.skinSelected;
 
     }
 

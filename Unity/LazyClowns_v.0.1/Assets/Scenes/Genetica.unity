@@ -970,9 +970,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Los elefantes de dos trompas hay dos,\nlos s\xF9bditos, estar\xE1n presentes
-    en los\nniveles y te golpean si te acercas, y \ngrande, que te esperar\xE1 en
-    una cueva\npara batirte en duelo con \xE9l. Ten cuidado\nes muy grande y fuerte."
+  m_Text: "El elefante es el encargado de gobernar\nel nivel 1, tendras que tener
+    cuidado \ncuando entres en su cueva. Ten cuidado\nes muy grande y fuerte. Se
+    rumore que \nsu cabeza es tan dura como la roca\nlos ataque normales no le haran
+    ni \ncosquillas "
 --- !u!222 &1699564080
 CanvasRenderer:
   m_ObjectHideFlags: 0

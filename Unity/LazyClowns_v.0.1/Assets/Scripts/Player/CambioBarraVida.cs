@@ -7,21 +7,24 @@ public class CambioBarraVida : MonoBehaviour
 {
     [SerializeField] Texture[] barraVida;
     [SerializeField] RawImage imagen;
-    private PlayerMove spriteRender;
-    int numSkin;
+    
+    float numSkin;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        spriteRender = GameObject.Find("Player").GetComponent<PlayerMove>();
-        numSkin = spriteRender.skinSelected;
+        
+        
+        numSkin = PlayerMove.skinSelected;
     }
 
     // Update is called once per frame
     void Update()
     {
         CambioSkin();
-        numSkin = spriteRender.skinSelected;
+        numSkin = PlayerMove.skinSelected;
     }
 
     void CambioSkin()
