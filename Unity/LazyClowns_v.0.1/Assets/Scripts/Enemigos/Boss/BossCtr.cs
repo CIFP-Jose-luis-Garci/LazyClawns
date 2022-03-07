@@ -53,15 +53,15 @@ void VelocidadAtaque()
     {
         if(currentHealth == 7000)
         {
-            bossAttack.intervalo = 5;
+            bossAttack.intervalo = 3;
         }
         else if (currentHealth == 4000)
         {
-            bossAttack.intervalo = 4;
+            bossAttack.intervalo = 2;
         }
         else if(currentHealth == 1000)
         {
-            bossAttack.intervalo = 3;
+            bossAttack.intervalo = 1.5f;
         }
 
     }

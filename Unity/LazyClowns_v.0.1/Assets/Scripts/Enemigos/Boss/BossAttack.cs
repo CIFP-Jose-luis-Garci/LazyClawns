@@ -17,7 +17,7 @@ public class BossAttack : MonoBehaviour
     {
         animator = gameObject.GetComponent<Animator>();
         StartCoroutine("pinchosInstan");
-        intervalo = 6;
+        intervalo = 4;
     }
 
     IEnumerator pinchosInstan()
