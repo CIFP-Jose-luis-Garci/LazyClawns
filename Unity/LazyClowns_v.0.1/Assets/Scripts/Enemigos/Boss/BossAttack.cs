@@ -10,7 +10,7 @@ public class BossAttack : MonoBehaviour
     Animator animator;
     Animator pinchosAnime;
 
-    public int intervalo;
+    public float intervalo;
 
     // Update is called once per frame
     void Start()
