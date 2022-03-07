@@ -317,14 +317,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
-                },
-                {
-                    ""name"": ""Inventario"",
-                    ""type"": ""Button"",
-                    ""id"": ""2194d319-6c18-42cb-b036-3f51d238c2ba"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -347,28 +339,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""c61bdae7-48fd-499c-8d06-5433c6eef648"",
-                    ""path"": ""<Keyboard>/i"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Inventario"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""47f6f53c-97a9-47f3-be08-ab3e87a2f628"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Inventario"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -418,7 +388,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
         // Pausa
         m_Pausa = asset.FindActionMap("Pausa", throwIfNotFound: true);
         m_Pausa_Pause = m_Pausa.FindAction("Pause", throwIfNotFound: true);
-        m_Pausa_Inventario = m_Pausa.FindAction("Inventario", throwIfNotFound: true);
         // Cargar
         m_Cargar = asset.FindActionMap("Cargar", throwIfNotFound: true);
         m_Cargar_Pantalla = m_Cargar.FindAction("Pantalla", throwIfNotFound: true);
@@ -578,13 +547,11 @@ public class @InputSystem : IInputActionCollection, IDisposable
     private readonly InputActionMap m_Pausa;
     private IPausaActions m_PausaActionsCallbackInterface;
     private readonly InputAction m_Pausa_Pause;
-    private readonly InputAction m_Pausa_Inventario;
     public struct PausaActions
     {
         private @InputSystem m_Wrapper;
         public PausaActions(@InputSystem wrapper) { m_Wrapper = wrapper; }
         public InputAction @Pause => m_Wrapper.m_Pausa_Pause;
-        public InputAction @Inventario => m_Wrapper.m_Pausa_Inventario;
         public InputActionMap Get() { return m_Wrapper.m_Pausa; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -597,9 +564,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Pause.started -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
                 @Pause.performed -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
                 @Pause.canceled -= m_Wrapper.m_PausaActionsCallbackInterface.OnPause;
-                @Inventario.started -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
-                @Inventario.performed -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
-                @Inventario.canceled -= m_Wrapper.m_PausaActionsCallbackInterface.OnInventario;
             }
             m_Wrapper.m_PausaActionsCallbackInterface = instance;
             if (instance != null)
@@ -607,9 +571,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Pause.started += instance.OnPause;
                 @Pause.performed += instance.OnPause;
                 @Pause.canceled += instance.OnPause;
-                @Inventario.started += instance.OnInventario;
-                @Inventario.performed += instance.OnInventario;
-                @Inventario.canceled += instance.OnInventario;
             }
         }
     }
@@ -663,7 +624,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
     public interface IPausaActions
     {
         void OnPause(InputAction.CallbackContext context);
-        void OnInventario(InputAction.CallbackContext context);
     }
     public interface ICargarActions
     {

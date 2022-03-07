@@ -475,8 +475,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -607.54}
-  m_SizeDelta: {x: 563.12, y: 1041.1}
+  m_AnchoredPosition: {x: 0, y: -716.8872}
+  m_SizeDelta: {x: 563.12, y: 1259.7946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842245411
 MonoBehaviour:
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PROGRAMACI\xD3N\n\n\n\nARTE\n\n\n\nDISE\xD1O DE NIVELES\n\n\n\nMODELADO\n\n\n\nANIMACI\xD3N\n\n\n\n\nTEXTURIZADO"
+  m_Text: "PROGRAMACI\xD3N\n\n\n\nARTE\n\n\n\nDISE\xD1O DE NIVELES\n\n\n\nMODELADO\n\n\n\nANIMACI\xD3N\n\n\n\n\nTEXTURIZADO\n\n\nM\xDASICA\n"
 --- !u!222 &842245412
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -698,8 +698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000022888, y: -607.53}
-  m_SizeDelta: {x: 563.12, y: 1041.1}
+  m_AnchoredPosition: {x: -0.000022888, y: -671.3137}
+  m_SizeDelta: {x: 563.12, y: 1168.6674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1314594655
 MonoBehaviour:
@@ -735,10 +735,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\nJairo Pi\xF1a Salas\nJorge D\xEDaz Fern\xE1ndez\n\n\nMilena Guerrero\nRuben
-    Alia Maria\n\n\nMilena Guerrero\nRuben Alia Maria\n\n\nVictor Fern\xE1ndez de
-    la Torre\n\n\n\nMilena Guerrero\nJairo Pi\xF1a Salas\nJorge D\xEDaz Fern\xE1ndez\n\n\nVictor
-    Fern\xE1ndez de la Torre\n\n\n\n\n\n\nVictor Fern\xE1ndez de la Torre\nMilena
-    Guerrero\nJairo Pi\xF1a Salas\nRuben Alia Maria\nJorge D\xEDaz Fern\xE1ndez"
+    Alia Maria\n\n\nVictor Fern\xE1ndez de la Torre\nJairo Pi\xF1a Salas\n\n\nVictor
+    Fern\xE1ndez de la Torre\n\n\n\nMilena Guerrero\nJairo Pi\xF1a Salas\nJorge D\xEDaz
+    Fern\xE1ndez\n\n\nVictor Fern\xE1ndez de la Torre\n\n\nRuben Alia Maria\nJorge
+    D\xEDaz Fern\xE1ndez\n\n\n\n\n\nVictor Fern\xE1ndez de la Torre\nMilena Guerrero\nJairo
+    Pi\xF1a Salas\nRuben Alia Maria\nJorge D\xEDaz Fern\xE1ndez"
 --- !u!222 &1314594656
 CanvasRenderer:
   m_ObjectHideFlags: 0

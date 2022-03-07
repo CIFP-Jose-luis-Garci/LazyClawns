@@ -52,7 +52,7 @@ public class PauseManager : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
 
         action.Pausa.Pause.started += ctx => DeterminedPause();
-        action.Pausa.Inventario.performed += ctx => DeterminedInventory();
+        //action.Pausa.Inventario.performed += ctx => DeterminedInventory();
 
         pauseMenu.SetActive(false);
         inventory.SetActive(false);
